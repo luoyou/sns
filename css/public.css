@@ -1,0 +1,43 @@
+body { background:#40516D; color: #D9DDE2;}
+
+
+#header {height: 36px; background: #313131; font-family: "微软雅黑"; text-align: center; font-size: 14px;}
+#logo { float:left; height: 36px; width: 90px; margin-left: 165px; background: url(../images/logo.png) no-repeat; }
+#nav {margin-left: 280px; color: #ffffff;}
+#nav ul {list-style: none;}
+#nav ul li {float: left; padding: 7px 7px 0px;}
+#nav ul li a {color: #ffffff;}
+
+#input_search { width: 129px; height: 21px; border: 0px; color: #818181; outline: 0; background-color: #ededed; font-family: "微软雅黑"; text-align: center;}
+.search_icon { outline: none; border-left-style: solid; border-left-width: 1px; border-left-color: #CACACA; background-image: url(../images/icenter_lite.png); background-position: 0 -51px; cursor: pointer; display: inline-block; width: 25px; height: 21px;}
+
+.user_little_pic {margin-left: 125px; }
+.quit { margin-left: 9px;}
+.user_set { background: url(../images/icenter_lite.png) -350px -50px no-repeat ; width: 16px; height: 18px; display: block; margin-top: 2px;}
+.message { background: url(../images/icenter_lite.png) -366px 0px no-repeat; width: 16px; height: 18px; display: block; margin-top: 2px;}
+
+
+
+
+#footer { text-align: center; margin-top: 10px; }
+
+.bg2 { background: #40516d;}
+
+
+i { width: 16px; height: 14px; display: block; background-image: url(../images/icenter_lite.png);}
+.message_type_article_icon { background-position: -417px -34px; }
+.message_type_video_icon { background-position: -434px -51px; }
+.message_type_photo_icon { background-position: -417px -51px; }
+.message_type_all_icon { background-position: -519px 0;}
+.message_friend_icon { width: 18px; height: 18px; background-position: -212px -63px;}
+.message_friend_special_icon { width: 18px; height: 18px; background-position: -231px -63px;}
+.message_me_icon { width: 18px; height: 18px; background-position: -250px -63px;}
+.article_icon { height: 16px; background-position: -417px 0; }
+.photo_icon { height: 16px; background-position: -417px -17px;}
+.say_icon { height: 16px; background-position: -417px -68px;}
+.leave_message_icon { height: 16px; background-position: -246px -44px;}
+.share_icon { height: 16px; background-position: -451px 0;}
+.user_info_icon { height: 16px; background-position: -451px -17px;}
+
+.clearfix:after{ content:"."; display:block; height:0; clear:both; visibility:hidden }
+.clearfix{ *+height:1%; }
