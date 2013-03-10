@@ -36,8 +36,6 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('create_time')); ?>:</b>
 	<?php echo CHtml::encode($data->create_time); ?>
 	<br />
-
-
 </div>
 -->
 
@@ -59,3 +57,4 @@
         <div class="message_comment" contenteditable="true"></div>
     </div>
 </li>
+</div>

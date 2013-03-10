@@ -1,0 +1,55 @@
+    日志功能
+	转载
+	分享
+	最近阅读记录
+	文章栏目分配
+	访问权限（尚未开发）
+
+l_article	元消息数据表
+	id
+	user_id
+	column_id
+	title
+	reprint_count
+	content_id
+	create_time
+	update_time
+
+l_article_list	所有文章列表
+	id
+	user_id
+	article_id
+	type		原创1，转载0
+	read_count
+	comment_count	
+	create_time
+
+l_article_content	文章内容表
+	id
+	article_id
+	content	
+
+l_article_column
+	id
+	user_id
+	column_name
+	
+l_article_comment	评论表
+	id
+	pid
+	list_id
+	user_id
+	content
+	create_time
+
+l_article_read
+	id
+	list_id
+	user_id
+	create_time
+
+l_article_share
+	id
+	user_id
+	list_id
+	create_time

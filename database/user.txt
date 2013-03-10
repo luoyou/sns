@@ -1,0 +1,37 @@
+l_user:
+	id
+	username
+	password
+	pic
+	nickname
+	user_sign
+	name
+	english_name
+	gender
+	birthday
+	horoscope
+	blood_type
+	current_live_id
+	hometown_id
+
+l_user_extend
+	id
+	user_id
+	telephone
+	mobilephone
+	education
+	job
+	interest
+	description
+	create_time
+	check_question
+	check_answer
+
+l_user_relation
+	id
+	user_id
+	friend_id
+		
+l_user_setting
+	id		
+	
