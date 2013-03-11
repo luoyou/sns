@@ -41,3 +41,9 @@ i { width: 16px; height: 14px; display: block; background-image: url(../images/i
 
 .clearfix:after{ content:"."; display:block; height:0; clear:both; visibility:hidden }
 .clearfix{ *+height:1%; }
+
+/*=======================此处为分割线========================*/
+.pager { height: 20px; }
+.pager .yiiPager { margin-left: 290px; }
+#message_list .pager .yiiPager li { float: left; padding: 6px; margin: 0;}
+#message_list .pager .yiiPager li a{ color: #AAC4EE; }

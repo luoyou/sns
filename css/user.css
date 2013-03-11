@@ -2,7 +2,8 @@
 
 #main_info { width: 610px; padding: 42px 20px 15px;}
 #message { width: 610px; }
-#publish_message { min-height: 51px; border-radius: 3px; background: #40516D; overflow: hidden;}
+#publish_message { min-height: 51px; border-radius: 3px; background: #40516D; overflow: hidden; }
+.edit_status { color: #a9a9a9; }
 #insert_content { width: 450px; height: 34px; float: left; }
 #syn_message { width: 80px; height: 34px; float: left; }
 #submit_message { cursor: pointer; display: inline-block; background: #63748F; font-size: 14px; padding: 6px 18px; border-radius: 2px 2px 2px 2px; margin-top:5px; margin-left: 16px; }

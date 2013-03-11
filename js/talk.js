@@ -15,18 +15,23 @@ $('document').ready(function(){
                 }
             }
         )
-    })
-    /*
-    focus(function(){
-        if($(this).val() == $(this).default.val()){
-            $(this).val() = '';
+    });
+
+    var publish_message = $('#publish_message').text();
+    
+    $('#publish_message').focus(function(){
+        if($(this).text() == publish_message){
+            $(this).text('');
+            $(this).removeClass('edit_status');
         }
     }).blur(function(){
-        if($(this).val()==''){
-            $(this).val = $(this).default.val();
+        if($(this).text()==''){
+            $(this).text(publish_message);
+            $(this).addClass('edit_status');
+        }else{
+            $(this).removeClass('edit_status');
         }
     });
-    */
 });
 
 function talkContent(){

@@ -12,6 +12,8 @@
 	
     <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/user.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/public.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/personal.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/talk.js"></script>
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/talk.js"></script>
 </head>
 
@@ -27,8 +29,8 @@
             <li class="user_little_pic">
                 <?php if(Yii::app()->user->isGuest): ?>
                     <?php echo CHtml::link('[登录]',array('Site/login')); ?>
-                <?php else: ?>    
-                    <a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pic_little.jpg" /></a>
+                <?php else: ?>
+                    <?php echo CHtml::link("<img src='".Yii::app()->request->baseUrl."/images/pic_little.jpg' />", array('User/view')); ?>   
                 <?php endif ?>
             </li>
             <li>
