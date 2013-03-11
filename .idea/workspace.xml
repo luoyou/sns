@@ -28,43 +28,7 @@
       <file leaf-file-name="TalkList.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/models/TalkList.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="25" selection-start="3437" selection-end="3437" vertical-scroll-proportion="-0.65384614">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/talkList/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="9" selection-start="142" selection-end="142" vertical-scroll-proportion="-5.230769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Talk.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protected/models/Talk.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="5" selection-start="697" selection-end="697" vertical-scroll-proportion="-1.2031524">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="talk.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/talk.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="12" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="8" selection-start="923" selection-end="923" vertical-scroll-proportion="-9.807693">
+            <state line="114" column="25" selection-start="3437" selection-end="3437" vertical-scroll-proportion="-45.5">
               <folding />
             </state>
           </provider>
@@ -73,8 +37,28 @@
       <file leaf-file-name="TalkListController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/TalkListController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="38" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
+            <state line="126" column="5" selection-start="3071" selection-end="3071" vertical-scroll-proportion="-5.269231">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TalkController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/controllers/TalkController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="42" selection-start="2127" selection-end="2127" vertical-scroll-proportion="-13.461538">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="talk.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/talk.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="31" selection-start="804" selection-end="804" vertical-scroll-proportion="0.37018424">
+              <folding>
+                <marker date="1362907017606" expanded="true" signature="271:285" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,22 +73,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/MessageController.php" />
-        <option value="$PROJECT_DIR$/protected/views/talkList/view.php" />
-        <option value="$PROJECT_DIR$/protected/views/talkList/_form.php" />
         <option value="$PROJECT_DIR$/protected/views/talk/_form.php" />
         <option value="$PROJECT_DIR$/protected/models/TalkComment.php" />
         <option value="$PROJECT_DIR$/protected/runtime/application.log" />
         <option value="$PROJECT_DIR$/protected/config/main.php" />
         <option value="$PROJECT_DIR$/protected/models/TalkList.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/TalkController.php" />
         <option value="$PROJECT_DIR$/protected/views/talkList/index.php" />
-        <option value="$PROJECT_DIR$/protected/views/talkList/_view.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/TalkListController.php" />
-        <option value="$PROJECT_DIR$/js/talk.js" />
         <option value="$PROJECT_DIR$/protected/models/Talk.php" />
+        <option value="$PROJECT_DIR$/protected/components/Public.php" />
+        <option value="$PROJECT_DIR$/protected/views/talkList/_view.php" />
+        <option value="$PROJECT_DIR$/protected/components/Common.php" />
+        <option value="$PROJECT_DIR$/protected/components/UserIdentity.php" />
+        <option value="$PROJECT_DIR$/protected/components/Controller.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/TalkListController.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/TalkController.php" />
+        <option value="$PROJECT_DIR$/js/talk.js" />
       </list>
     </option>
   </component>
@@ -212,50 +196,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="talk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -297,6 +237,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -305,7 +295,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.customizations" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../hotel" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -356,7 +346,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.670947" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19347134" sideWeight="0.6741573" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19984077" sideWeight="0.6741573" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -424,48 +414,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="8" selection-start="3725" selection-end="3946" vertical-scroll-proportion="-5.230769" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/yii/web/helpers/CHtml.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="980" column="27" selection-start="38707" selection-end="38707" vertical-scroll-proportion="0.22942206" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/yii/web/CActiveDataProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="0" selection-start="2715" selection-end="2715" vertical-scroll-proportion="0.73555166" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/talk/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="10" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.7545126" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/talk/_view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/talkList/_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="10" selection-start="476" selection-end="476" vertical-scroll-proportion="-2.3461537" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/TalkList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="25" selection-start="3437" selection-end="3437" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/TalkListController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="38" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/column2.php">
@@ -473,50 +424,99 @@
         <state line="7" column="25" selection-start="209" selection-end="209" vertical-scroll-proportion="0.21636364" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/TalkController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="65" selection-start="471" selection-end="471" vertical-scroll-proportion="0.5061296" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/yii/db/schema/CDbCriteria.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="20" selection-start="5962" selection-end="5962" vertical-scroll-proportion="0.3485114">
+        <state line="157" column="20" selection-start="5962" selection-end="5962" vertical-scroll-proportion="0.3485114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Talk.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="5" selection-start="697" selection-end="697" vertical-scroll-proportion="0.02977233">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/talkList/index.php">
+    <entry file="file://$PROJECT_DIR$/core/yii/i18n/CDateFormatter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="9" selection-start="142" selection-end="142" vertical-scroll-proportion="-5.230769">
+        <state line="126" column="30" selection-start="4206" selection-end="4206" vertical-scroll-proportion="0.39229423" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/talkList/_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="59" selection-start="1855" selection-end="1855" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/Controller.php">
+    <entry file="file://$PROJECT_DIR$/protected/components/Common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="16" selection-start="525" selection-end="530" vertical-scroll-proportion="0.44658494">
+        <state line="25" column="31" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="923" selection-end="923" vertical-scroll-proportion="-9.807693">
+        <state line="25" column="35" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.5954466">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/talkList/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="10" selection-start="433" selection-end="433" vertical-scroll-proportion="0.02977233">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/UserIdentity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="48" selection-start="454" selection-end="454" vertical-scroll-proportion="0.12784588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/yii/web/CController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="32" selection-start="4935" selection-end="4951" vertical-scroll-proportion="-7.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/TalkList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="25" selection-start="3437" selection-end="3437" vertical-scroll-proportion="-45.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="39" selection-start="971" selection-end="971" vertical-scroll-proportion="0.8038529">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/TalkListController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="5" selection-start="3071" selection-end="3071" vertical-scroll-proportion="-5.269231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/TalkController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="42" selection-start="2127" selection-end="2127" vertical-scroll-proportion="-13.461538">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/talk.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="12" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Talk.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="5" selection-start="697" selection-end="697" vertical-scroll-proportion="-1.2031524">
-          <folding />
+        <state line="9" column="31" selection-start="804" selection-end="804" vertical-scroll-proportion="0.37018424">
+          <folding>
+            <marker date="1362907017606" expanded="true" signature="271:285" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

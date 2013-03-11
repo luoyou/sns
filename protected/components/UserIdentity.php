@@ -7,7 +7,7 @@
  */
 class UserIdentity extends CUserIdentity
 {
-    private $_id;
+    public $user;
 
 	/**
 	 * against some persistent user identity storage (e.g. database).
@@ -25,8 +25,7 @@ class UserIdentity extends CUserIdentity
             if(!$user->validatePassword($this->password)){
                 $this->errorCode=self::ERROR_PASSWORD_INVALID;
             }else{
-                $this->_id       = $user->id;
-                $this->username  = $user->username;
+                $this->setUser($user);
                 $this->errorCode = self::ERROR_NONE;
             }
         }
@@ -34,8 +33,12 @@ class UserIdentity extends CUserIdentity
         return $this->errorCode == self::ERROR_NONE;
     }
 
-    public function getId(){
-        return $this->_id;
+    public function setUser(CActiveRecord $user){
+        $this->user = $user->attributes;
+    }
+
+    public function getUser(){
+        return $this->user;
     }
 
 }

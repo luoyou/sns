@@ -7,7 +7,7 @@ class TalkListController extends Controller
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
 
-	public $layout='//layouts/content';
+	public $layout = '//layouts/content';
 
 	/**
 	 * @return array action filters

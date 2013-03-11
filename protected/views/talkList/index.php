@@ -72,14 +72,14 @@
 	        <div id="tip_box">
 	            <a href="javascript:none;" class="refresh_add_message">半夏等人 有新的动态, 点击查看</a>
 	        </div>
-	        <ul id="message_list">
-				<?php 
-					$this->widget('zii.widgets.CListView', array(
-						'dataProvider'=>$dataProvider,
-						'itemView'=>'_view',
-					)); 
-				?>
-	        <ul>
+			<?php 
+				$this->widget('zii.widgets.CListView', array(
+					'dataProvider'=>$dataProvider,
+					'itemView'=>'_view',
+                    'template'=>'<span>{summary}</span><ul id="message_list">{items}<ul>',
+				)); 
+			?>
+	        
 	        <div id="more_message">
 	            冷月,时光等更多好友的动态
 	        </div>

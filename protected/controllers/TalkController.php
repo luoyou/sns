@@ -72,7 +72,11 @@ class TalkController extends Controller
 			$model->attributes=$_POST['Talk'];
 			if($model->save())
                 if(Yii::app()->request->isAjaxRequest){
-                    echo $_POST['Talk']['content'];
+                    $data = array('pic'=>$this->user->pic,
+                                  'name'=>$this->user->nickname,
+                                  'content'=>$_POST['Talk']['content'],
+                                );
+                    echo json_encode($data);
                     return;
                 }else{
                     $this->redirect(array('view','id'=>$model->id));
@@ -127,7 +131,6 @@ class TalkController extends Controller
 	 */
 	public function actionIndex()
 	{
-		var_dump(Yii::app()->user);
 		$dataProvider=new CActiveDataProvider('Talk');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,

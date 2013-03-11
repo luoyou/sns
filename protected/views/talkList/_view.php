@@ -50,7 +50,7 @@
         <div class="message_user_content">
             <p><?php echo CHtml::encode($data->content->content); ?></p>
             <span>
-            	<?php echo CHtml::encode($data->create_time); ?>
+            	<?php echo CHtml::encode(Common::returnTime($data->create_time)); ?>
 				<a href="javascript:none;">赞</a>
 				<a href="javascript:none;">评论(<?php echo CHtml::encode($data->talk_comment_count); ?>)</a>
 				<a href="javascript:none;">转发</a>
