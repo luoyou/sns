@@ -32,7 +32,7 @@ class TalkController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','transmit'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -86,6 +86,24 @@ class TalkController extends Controller
 		$this->render('create',array(
 			'model'=>$model,
 		));
+	}
+
+	/**
+	 *
+	 *transmit talk
+	 */
+	public function actionTransmit(){
+		if(isset($_POST['transmit_id'])){
+			$temp_id = $_POST['transmit_id'];
+	        if(TalkList::model()->insertTalkList($this->user->id,$temp_id)){
+				$model = $this->loadModel($temp_id);
+				$data  = array('pic'=>$this->user->pic,
+                              'name'=>$this->user->nickname,
+                              'content'=>$model->content,
+                              );
+                echo json_encode($data);
+			}
+		}
 	}
 
 	/**

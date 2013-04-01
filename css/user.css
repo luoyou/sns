@@ -2,7 +2,7 @@
 
 #main_info { width: 610px; padding: 42px 20px 15px;}
 #message { width: 610px; }
-#publish_message { min-height: 51px; border-radius: 3px; background: #40516D; overflow: hidden; }
+#publish_message { min-height: 51px; border-radius: 3px; background: #40516D; overflow: hidden; word-wrap: break-word; }
 .edit_status { color: #a9a9a9; }
 #insert_content { width: 450px; height: 34px; float: left; }
 #syn_message { width: 80px; height: 34px; float: left; }
@@ -31,8 +31,13 @@
 .message_user_name a { color: #AAC4EE;}
 .message_user_content { margin-top: 5px; font-family: "微软雅黑";}
 .message_user_content span { display: inline-block; margin-top: 7px; font-size: 12px; }
-.message_user_content span a { color: #AAC4EE; margin: 8px; display: inline-block; font-family: "sans-serif"; }
-.message_comment { min-height: 21px; line-height: 20px; padding-left: 5px; border: #4D607E 1px solid;}
+.message_user_content span a { color: #AAC4EE; margin: 8px; display: inline-block; font-family: "sans-serif"; cursor: pointer; }
+.message_comment { min-height: 21px; line-height: 20px; padding-left: 5px; border: #4D607E 1px solid; word-wrap: break-word; cursor: text; }
+.comment_view { height: 100px;} 
+#message_list .comment_view ul li { }
+#message_list .comment_view ul li a img { width: 10px; height: 10px; }
+.comment_commit { display: none; }
+.comment_commit a { display: inline-block; margin-left: 470px; cursor: pointer; font-size: 12px; background: #63748F; padding: 3px 10px; margin-top: 5px; }
 .message_user_content .user_operate_type { color: #95A0B2; font-size: 14px; font-family: "微软雅黑"; }
 .message_user_content .article_title { color: #AAC4EE; margin-left: 5px;}
 .article_content { font-family: sans-serif; font-size: 12px; } 

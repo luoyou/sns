@@ -106,9 +106,13 @@ class Talk extends CActiveRecord
         }
     }
 
+    /**
+     *insert TalkList
+     *
+     */
     public function afterSave(){
         parent::afterSave();
-        if(TalkList::model()->insert_talk_list($this->user_id,$this->id)){
+        if(TalkList::model()->insertTalkList($this->user_id,$this->id)){
             return true;
         }
     }

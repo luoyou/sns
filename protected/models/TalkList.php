@@ -106,12 +106,14 @@ class TalkList extends CActiveRecord
      * insert talk_list
      *
      */
-    public function insert_talk_list($user_id,$talk_id,$comment_id = 0){
+    public function insertTalkList($user_id,$talk_id,$comment_id = 0){
         $talk_list              = new TalkList();
         $talk_list->user_id     = $user_id;
         $talk_list->talk_id     = $talk_id;
         $talk_list->create_time = time();
         $talk_list->comment_id  = $comment_id;
         $talk_list->save();
+
+        return true;
     }
 }

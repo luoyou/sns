@@ -44,6 +44,6 @@ i { width: 16px; height: 14px; display: block; background-image: url(../images/i
 
 /*=======================此处为分割线========================*/
 .pager { height: 20px; }
-.pager .yiiPager { margin-left: 290px; }
+.pager .yiiPager { margin-left: 180px; }
 #message_list .pager .yiiPager li { float: left; padding: 6px; margin: 0;}
 #message_list .pager .yiiPager li a{ color: #AAC4EE; }
