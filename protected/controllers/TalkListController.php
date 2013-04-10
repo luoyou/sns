@@ -98,8 +98,7 @@ class TalkListController extends Controller
 	/**
 	 * Lists all models.
 	 */
-	public function actionIndex()
-	{
+	public function actionIndex(){
         $dataProvider=new CActiveDataProvider('TalkList',array(
                 'criteria'=>array(
                     'condition'=>'user_id='.Yii::app()->user->id,
@@ -112,6 +111,14 @@ class TalkListController extends Controller
 			'dataProvider'=>$dataProvider,
 		));
 	}
+
+	/**
+	 *Ajax add comment
+	 */
+	public function actionComment(){
+		
+	}
+
 
 	/**
 	 * Manages all models.

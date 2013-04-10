@@ -48,9 +48,11 @@ $('document').ready(function(){
         });
     });
 
+    /**
+     *显示评论按钮
+     */
     $('.comment').click(function(){
         var current = $(this).parent().parent().parent();
-        current.children('.comment_commit').fadeIn();
         current.children('.message_comment').focus();
     });
 
@@ -58,7 +60,36 @@ $('document').ready(function(){
         $(this).next().fadeIn('slow');
     }).blur(function(){
         $(this).next().fadeOut('slow');
-    })
+    });
+
+    $('.reply').click(function(){
+        var current  = $(this).parentsUntil('.message_frame','.comment_view');
+        var add_text = $(this).parent().parent(); 
+        var add_val  = add_text.find('a').html();
+        //current.next().text("<a href='"+add_attr+"'>"+add_val+"</a>");
+        current.next().focus();
+    });
+
+    /**
+     *提交评论
+     */
+    $('.comment_commit').click(function(){
+        $.ajax({
+            url:webUrl('/TalkList/Comment'),
+            data:
+                {'TalkComment':
+                    {
+                        'list_id':$(this).parent().children('.comment').attr('comment'),
+                        'pid':0,
+                        'content':$(this).prev().text(),
+                    }
+                },
+            type:'post',
+            dataType:'json',
+            success:function(data){commentPublish(data);},
+            error:function(data){alert('评论失败');}
+        });
+    });
 
 });
 
@@ -82,4 +113,8 @@ function talkPublish(data){
     $('#message_list').prepend(content);
     $('#message_list li:first').fadeIn('slow');
     $('#publish_message').text('');
+}
+
+function commentPublish(data){
+    var content = "<li><a href='#'><img src='"+webUrl()+"/images/"+data['pic']+"' /></a><div class='comment_main'><span class='comment_content'><a href='#'>"+data['nickname']+"</a>:"+data['content']+"</span><span class='comment_info'>"+data['create_time']+"<a class='reply'>回复</a></span></div></li>";
 }

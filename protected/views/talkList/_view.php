@@ -2,45 +2,6 @@
 /* @var $this TalkListController */
 /* @var $data TalkList */
 ?>
-<!--
-<div class="view">
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id')); ?>:</b>
-	<?php echo CHtml::link(CHtml::encode($data->id), array('view', 'id'=>$data->id)); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('user_id')); ?>:</b>
-	<?php echo CHtml::encode($data->user->nickname); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('talk_id')); ?>:</b>
-	<?php echo CHtml::encode($data->content->content); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('comment_id')); ?>:</b>
-	<?php echo CHtml::encode($data->comment_id); ?>
-	<br />
-==========================================<br/>
-    <b><?php echo CHtml::encode($data->getAttributeLabel('comment_id')); ?>:</b>
-    <?php foreach($data->talk_comment as $value) echo $value->content; ?>
-    <br />
-
-    <b><?php echo CHtml::encode($data->getAttributeLabel('comment_count')); ?>:</b>
-    <?php echo CHtml::encode($data->talk_comment_count); ?>
-    <br />
-=========================================<br/>
-	<b><?php echo CHtml::encode($data->getAttributeLabel('comment_count')); ?>:</b>
-	<?php echo CHtml::encode($data->comment_count); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('create_time')); ?>:</b>
-	<?php echo CHtml::encode($data->create_time); ?>
-	<br />
-
-
-</div>
--->
-
 <li>
     <a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pic.jpg" /></a>
     <div class="message_frame bg2">
@@ -60,39 +21,51 @@
         </div>
         <div class="comment_view">
         	<ul>
-        		<li>
-        			<a href="">
-        				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pic1.jpg" />
-        			</a>
-        			<span>这是人生的一段旅程</span>
-        		</li>
-        		<li>
-        			<a href="">
-        				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pic2.jpg" />
-        			</a>
-        			<span>这是人生的一段旅程</span>
-        		</li>
-        		<li>
-        			<a href="">
-        				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pic3.jpg" />
-        			</a>
-        			<span>这是人生的一段旅程</span>
-        		</li>
-        		<li>
-        			<a href="">
-        				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pic4.jpg" />
-        			</a>
-        			<span>这是人生的一段旅程</span>
-        		</li>
-        		<li>
-        			<a href="">
-        				<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pic.jpg" />
-        			</a>
-        			<span>这是人生的一段旅程</span>
-        		</li>
+                <li>
+                    <a href="">
+                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pic1.jpg" />
+                    </a>
+                    <div class="comment_main">
+                        <span class="comment_content">
+                            <a href="">落忧</a>:这是人生的一段旅程
+                        </span>
+                        <span class="comment_info">
+                            昨天 22:30<a class="reply">回复</a>
+                        </span>
+                        <ul class="reply_comment">
+                            <li>
+                                <a href="">
+                                    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pic2.jpg" />
+                                </a>
+                                <div class="comment_main second_comment">
+                                    <span class="comment_content">
+                                        <a href="#">梦杰</a>回复<a href="">落忧</a>:这是人生的一段旅程
+                                    </span>
+                                    <span class="comment_info">
+                                        昨天 22:30<a class="reply">回复</a>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pic1.jpg" />
+                    </a>
+                    <div class="comment_main">
+                        <span class="comment_content">
+                            <a href="">落忧</a>:这是人生的一段旅程
+                        </span>
+                        <span class="comment_info">
+                            昨天 22:30<a class="reply">回复</a>
+                        </span>
+                    </div>
+                </li>
+
         	</ul>
         </div>
         <div class="message_comment" contenteditable="true"></div>
         <div class="comment_commit"><a>提交</a></div>
-    </div>
+    </div> 
 </li>

@@ -1,7 +1,8 @@
 body { background:#40516D; color: #D9DDE2;}
-
+a { color: #AAC4EE; cursor: pointer; }
 
 #header {height: 36px; background: #313131; font-family: "微软雅黑"; text-align: center; font-size: 14px;}
+#content { width: 900px; background: #34445C; margin: 0 auto; overflow: auto;}
 #logo { float:left; height: 36px; width: 90px; margin-left: 165px; background: url(../images/logo.png) no-repeat; }
 #nav {margin-left: 280px; color: #ffffff;}
 #nav ul {list-style: none;}
@@ -39,8 +40,9 @@ i { width: 16px; height: 14px; display: block; background-image: url(../images/i
 .share_icon { height: 16px; background-position: -451px 0;}
 .user_info_icon { height: 16px; background-position: -451px -17px;}
 
-.clearfix:after{ content:"."; display:block; height:0; clear:both; visibility:hidden }
-.clearfix{ *+height:1%; }
+.clearfix:before,.clearfix:after { content: "."; display: block; height: 0; overflow: hidden; }
+.clearfix:after {clear: both;}
+.clearfix {zoom: 1;}
 
 /*=======================此处为分割线========================*/
 .pager { height: 20px; }
