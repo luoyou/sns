@@ -1,8 +1,8 @@
 body { background:#40516D; color: #D9DDE2;}
 a { color: #AAC4EE; cursor: pointer; }
 
-#header {height: 36px; background: #313131; font-family: "微软雅黑"; text-align: center; font-size: 14px;}
-#content { width: 900px; background: #34445C; margin: 0 auto; overflow: auto;}
+#header {height: 36px; width: 100%; background: #313131; font-family: "微软雅黑"; text-align: center; font-size: 14px;}
+#content { width: 900px; background: #34445C; margin: 36px auto; overflow: auto;}
 #logo { float:left; height: 36px; width: 90px; margin-left: 165px; background: url(../images/logo.png) no-repeat; }
 #nav {margin-left: 280px; color: #ffffff;}
 #nav ul {list-style: none;}
@@ -22,8 +22,9 @@ a { color: #AAC4EE; cursor: pointer; }
 
 #footer { text-align: center; margin-top: 10px; }
 
-.bg2 { background: #40516d;}
-
+.bg2 { background: #40516d; }
+.bg3 { background: #374760; } 
+.bg4 { background: #34445c; } 
 
 i { width: 16px; height: 14px; display: block; background-image: url(../images/icenter_lite.png);}
 .message_type_article_icon { background-position: -417px -34px; }
@@ -43,6 +44,8 @@ i { width: 16px; height: 14px; display: block; background-image: url(../images/i
 .clearfix:before,.clearfix:after { content: "."; display: block; height: 0; overflow: hidden; }
 .clearfix:after {clear: both;}
 .clearfix {zoom: 1;}
+
+.fixed-top /* 头部固定 */{position:fixed;bottom:auto;top:0px;}
 
 /*=======================此处为分割线========================*/
 .pager { height: 20px; }

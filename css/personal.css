@@ -1,13 +1,20 @@
 #personal_title { height: 37px; line-height: 37px; font-size: 14px; font-weight: bold; background: #263B5B; padding-left: 25px; }
-#personal_left_content { width: 154px; float: left; background: #374760; height: 768px; }
+#personal_left_content { width: 154px; float: left; height: 768px; }
 #personal_simple_info { width: 138px; margin: 0 auto; margin-top: 25px; padding-bottom: 20px; }
 #personal_simple_info img { width: 105px; height: 105px; margin-left: 17px; }
 #personal_simple_info a { display: block; margin-left: 44px; margin-top: 10px; color: #aac4ee; }
 #personal_published_info { margin-left: 14px; margin-top: 20px; }
 .personal_published_every_info { display: inline-block; width: 28px; padding: 0 5px 0; }
 #personal_simple_info .personal_published_every_info a { margin: 0; }
+
+
+#personal_main_content { height: 768px; margin-left: 175px; margin-right: 20px; }
+#person_photo { height: 140px; }
+#person_photo span { display: block; height: 20px; margin: 9px 0px; font-size: 14px; font-weight: bold; }
+#person_photo div img { height: 102px; margin-right: 20px;}
+#info_menu { margin: 15px 0px 7px; border-bottom: 1px solid #4D607E; }
+#info_menu span { margin-right: 10px; display: inline-block; padding: 5px 14px; border-radius: 4px 4px 0px 0px; border: 1px solid #4D607E; border-bottom: 0px; }
+
+/*===========此处以下为public文件夹内添加重构=========*/
 .right_border { border-right: 1px solid #3D4E68;}
 .bottom_border { border-bottom: 1px solid #3D4E68;}
-
-
-#personal_main_content { height: 768px; background: #34445C; margin-left: 175px; margin-right: 20px; }

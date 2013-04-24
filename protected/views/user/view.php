@@ -1,5 +1,5 @@
 <div id="personal_title">个人资料</div>
-<div id="personal_left_content" class="right_border">
+<div id="personal_left_content" class="right_border bg3">
 	<div id="personal_simple_info" class="bottom_border">
 		<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pic4.jpg" />
 		<a href="#">修改头像</a>
@@ -10,6 +10,19 @@
 		</div>
 	</div>
 </div>
-<div id="personal_main_content">
-	<div id=""></div>
+<div id="personal_main_content" class="bg4">
+	<div id="person_photo">
+		<span id="person_name">落忧</span>
+		<div>
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pic4.jpg" />
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pic1.jpg" />
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pic.jpg" />
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pic3.jpg" />
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pic2.jpg" />
+		</div>
+	</div>
+	<div id="info_menu">
+		<span class="bg2 border">详细信息</span>
+		<span class="border un_bottom_border">个人资料</span>
+	</div>
 </div>

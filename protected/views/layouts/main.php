@@ -17,7 +17,7 @@
 </head>
 
 <body>
-<div id="header">
+<div id="header" class="fixed-top">
     <div id="logo"></div>
     <div id="nav">
         <ul>
