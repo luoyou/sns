@@ -26,6 +26,7 @@ class Controller extends CController
     public function __construct($id,$module=null){
         parent::__construct($id,$module);
         $this->user = Yii::app()->user;
+        require('Common.php');
     }
 
 }

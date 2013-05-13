@@ -89,11 +89,11 @@ class Area extends CActiveRecord
 	}
 
     public function get_area($id){
-        $area = Area::model()->findByPk($id);
+        $area = $this->findByPk($id);
         $area_all = $area->title;
 
         while($area->pid){
-            $area = Area::model()->findByPk($area->pid);
+            $area = $this->findByPk($area->pid);
             $area_all = $area->title.$area_all;
         }
 

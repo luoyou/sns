@@ -21,11 +21,8 @@
  */
 class User extends CActiveRecord
 {
-	/**
-	 * Returns the static model of the specified AR class.
-	 * @param string $className active record class name.
-	 * @return User the static model class
-	 */
+    public $re_password;
+
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
@@ -47,16 +44,15 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('username, password, pic, nickname, user_sign, name, english_name, gender, birthday, horoscope, blood_type, current_live_id, hometown_id', 'required'),
+			//array('username, password, pic, nickname, user_sign, name, english_name, gender, birthday, horoscope, blood_type, current_live_id, hometown_id', 'required'),
 			array('gender, birthday, horoscope, blood_type, current_live_id, hometown_id', 'numerical', 'integerOnly'=>true),
-			array('username, password, pic', 'length', 'max'=>32),
+			array('username, password,re_password, pic', 'length', 'max'=>32),
 			array('nickname', 'length', 'max'=>16),
 			array('user_sign', 'length', 'max'=>64),
 			array('name', 'length', 'max'=>6),
 			array('english_name', 'length', 'max'=>12),
-			// The following rule is used by search().
-			// Please remove those attributes that should not be searched.
-			array('id, username, password, pic, nickname, user_sign, name, english_name, gender, birthday, horoscope, blood_type, current_live_id, hometown_id', 'safe', 'on'=>'search'),
+            array('password', 'compare', 'compareAttribute'=>'re_password'),
+			array('id, username, password,re_password, pic, nickname, user_sign, name, english_name, gender, birthday, horoscope, blood_type, current_live_id, hometown_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -80,6 +76,7 @@ class User extends CActiveRecord
 			'id' => 'ID',
 			'username' => '用户名',
 			'password' => '密码',
+            're_password' => '重复密码',
 			'pic' => '头像',
 			'nickname' => '昵称',
 			'user_sign' => '个性签名',
@@ -142,4 +139,9 @@ class User extends CActiveRecord
         return md5($password);
     }
 
+    public $sex = array('男','女');
+
+    public $constellation = array('白羊座','金牛座','双子座','巨蟹座','狮子座','处女座','天秤座','天蝎座','射手座','摩羯座','水平座','双鱼座');
+
+    public $blood = array('A型','B型','O型','AB型','其他');
 }

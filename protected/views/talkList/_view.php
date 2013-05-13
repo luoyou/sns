@@ -11,7 +11,7 @@
         <div class="message_user_content">
             <p><?php echo CHtml::encode($data->content->content); ?></p>
             <span>
-            	<?php echo CHtml::encode(Common::returnTime($data->create_time)); ?>
+            	<?php echo CHtml::encode(returnTime($data->create_time)); ?>
 				<a >赞</a>
 				<a comment="<?php echo CHtml::encode($data->id); ?>" class="comment" >
 					评论(<?php echo CHtml::encode($data->talk_comment_count); ?>)

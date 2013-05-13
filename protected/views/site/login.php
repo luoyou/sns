@@ -1,53 +1,41 @@
-<?php
-/* @var $this SiteController */
-/* @var $model LoginForm */
-/* @var $form CActiveForm  */
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title><?php echo $this->pageTitle; ?></title>
+    <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/login.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
 
-$this->pageTitle=Yii::app()->name . ' - Login';
-$this->breadcrumbs=array(
-	'Login',
-);
-?>
+<div class="transparent"></div>
+<div class="login_form">
+    <?php $form=$this->beginWidget('CActiveForm', array(
+                                    'id'=>'login-form',
+                                    'enableClientValidation'=>true,
+                                    'clientOptions'=>array(
+                                        'validateOnSubmit'=>true,
+                                    ),
+        )); ?>
+    <span>用户登录</span>
+    <ul>
+        <li class="prompt"><?php echo $form->error($model,'username'); ?></li>
+        <li><?php echo $form->textField($model,'username',array('class'=>'input_style','placeholder'=>'用户名')); ?></li>
 
-<h1>Login</h1>
+        <li class="prompt"><?php echo $form->error($model,'password'); ?></li>
+        <li><?php echo $form->passwordField($model,'password',array('class'=>'input_style','placeholder'=>'密码')); ?></li>
 
-<p>Please fill out the following form with your login credentials:</p>
+        <li>
+            <?php echo $form->checkBox($model,'rememberMe',array('class'=>'checkbox_style')); ?>
+            <?php echo $form->label($model,'rememberMe'); ?>
+        </li>
 
-<div class="form">
-<?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'login-form',
-	'enableClientValidation'=>true,
-	'clientOptions'=>array(
-		'validateOnSubmit'=>true,
-	),
-)); ?>
+        <li><?php echo CHtml::submitButton('登录',array('class'=>'submit_button')); ?>&nbsp;<?php echo CHtml::link('注册新账号',array('Site/Register')); ?></li>
+    </ul>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'username'); ?>
-		<?php echo $form->textField($model,'username'); ?>
-		<?php echo $form->error($model,'username'); ?>
-	</div>
+    <?php $this->endWidget(); ?>
+</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'password'); ?>
-		<?php echo $form->passwordField($model,'password'); ?>
-		<?php echo $form->error($model,'password'); ?>
-		<p class="hint">
-			Hint: You may login with <kbd>demo</kbd>/<kbd>demo</kbd> or <kbd>admin</kbd>/<kbd>admin</kbd>.
-		</p>
-	</div>
-
-	<div class="row rememberMe">
-		<?php echo $form->checkBox($model,'rememberMe'); ?>
-		<?php echo $form->label($model,'rememberMe'); ?>
-		<?php echo $form->error($model,'rememberMe'); ?>
-	</div>
-
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Login'); ?>
-	</div>
-
-<?php $this->endWidget(); ?>
-</div><!-- form -->
+</body>
+</html>

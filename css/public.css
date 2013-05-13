@@ -9,7 +9,7 @@ a { color: #AAC4EE; cursor: pointer; }
 #nav ul li {float: left; padding: 7px 7px 0px;}
 #nav ul li a {color: #ffffff;}
 
-#input_search { width: 129px; height: 21px; border: 0px; color: #818181; outline: 0; background-color: #ededed; font-family: "微软雅黑"; text-align: center;}
+#input_search { width: 129px; height: 21px; border: 0px; outline: 0; background-color: #ededed; font-family: "微软雅黑"; }
 .search_icon { outline: none; border-left-style: solid; border-left-width: 1px; border-left-color: #CACACA; background-image: url(../images/icenter_lite.png); background-position: 0 -51px; cursor: pointer; display: inline-block; width: 25px; height: 21px;}
 
 .user_little_pic {margin-left: 125px; }

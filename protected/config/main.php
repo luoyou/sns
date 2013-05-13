@@ -37,8 +37,8 @@ return array(
 		'user'=>array(
 			// enable cookie-based authentication
 			'class'=>'WebUser',
-			'allowAutoLogin'=> true,
-            'loginUrl'      => array('Site/index'),
+			'allowAutoLogin'=>true,
+            'returnUrl'=>array('/Message/Index'),
 		),
 
 		'urlManager'=>array(
