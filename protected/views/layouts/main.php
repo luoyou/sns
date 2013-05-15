@@ -36,7 +36,7 @@
                 <?php if(Yii::app()->user->isGuest): ?>
                     <?php echo CHtml::link('[注册]',array('Site/register')); ?>
                 <?php else: ?>    
-                    <span>落忧</span><span class="quit"><?php echo CHtml::link('[退出]', array('Site/logout')); ?></span>
+                    <span><?php echo $this->user->nickname; ?></span><span class="quit"><?php echo CHtml::link('[退出]', array('Site/logout')); ?></span>
                 <?php endif ?>
             </li>
             <li><a href="#" class="user_set"></a></li>

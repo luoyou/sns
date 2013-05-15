@@ -9986,3 +9986,1641 @@ in D:\wamp\www\sns\index.php (13)
 2013/05/13 23:38:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
 in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
 in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:03 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:07 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\models\User.php (28)
+in D:\wamp\www\sns\protected\components\UserIdentity.php (20)
+in D:\wamp\www\sns\protected\models\LoginForm.php (51)
+2013/05/14 20:44:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\models\User.php (28)
+in D:\wamp\www\sns\protected\components\UserIdentity.php (20)
+in D:\wamp\www\sns\protected\models\LoginForm.php (51)
+2013/05/14 20:44:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\models\User.php (28)
+in D:\wamp\www\sns\protected\components\UserIdentity.php (20)
+in D:\wamp\www\sns\protected\models\LoginForm.php (51)
+2013/05/14 20:44:07 [trace] [system.db.ar.CActiveRecord] User.find()
+in D:\wamp\www\sns\protected\components\UserIdentity.php (20)
+in D:\wamp\www\sns\protected\models\LoginForm.php (51)
+in D:\wamp\www\sns\protected\controllers\SiteController.php (49)
+2013/05/14 20:44:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `l_user` `t` WHERE LOWER(username)=? LIMIT 1. Bound with 0='luo'
+in D:\wamp\www\sns\protected\components\UserIdentity.php (20)
+in D:\wamp\www\sns\protected\models\LoginForm.php (51)
+in D:\wamp\www\sns\protected\controllers\SiteController.php (49)
+2013/05/14 20:44:11 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\models\User.php (28)
+in D:\wamp\www\sns\protected\components\UserIdentity.php (20)
+in D:\wamp\www\sns\protected\models\LoginForm.php (51)
+2013/05/14 20:44:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\models\User.php (28)
+in D:\wamp\www\sns\protected\components\UserIdentity.php (20)
+in D:\wamp\www\sns\protected\models\LoginForm.php (51)
+2013/05/14 20:44:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\models\User.php (28)
+in D:\wamp\www\sns\protected\components\UserIdentity.php (20)
+in D:\wamp\www\sns\protected\models\LoginForm.php (51)
+2013/05/14 20:44:11 [trace] [system.db.ar.CActiveRecord] User.find()
+in D:\wamp\www\sns\protected\components\UserIdentity.php (20)
+in D:\wamp\www\sns\protected\models\LoginForm.php (51)
+in D:\wamp\www\sns\protected\controllers\SiteController.php (49)
+2013/05/14 20:44:11 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `l_user` `t` WHERE LOWER(username)=? LIMIT 1. Bound with 0='luo'
+in D:\wamp\www\sns\protected\components\UserIdentity.php (20)
+in D:\wamp\www\sns\protected\models\LoginForm.php (51)
+in D:\wamp\www\sns\protected\controllers\SiteController.php (49)
+2013/05/14 20:44:11 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:11 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:15 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\models\User.php (28)
+in D:\wamp\www\sns\protected\controllers\UserController.php (70)
+in D:\wamp\www\sns\protected\controllers\UserController.php (39)
+2013/05/14 20:44:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\models\User.php (28)
+in D:\wamp\www\sns\protected\controllers\UserController.php (70)
+in D:\wamp\www\sns\protected\controllers\UserController.php (39)
+2013/05/14 20:44:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\models\User.php (28)
+in D:\wamp\www\sns\protected\controllers\UserController.php (70)
+in D:\wamp\www\sns\protected\controllers\UserController.php (39)
+2013/05/14 20:44:15 [trace] [system.db.ar.CActiveRecord] User.findByPk()
+in D:\wamp\www\sns\protected\controllers\UserController.php (70)
+in D:\wamp\www\sns\protected\controllers\UserController.php (39)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `l_user` `t` WHERE `t`.`id`=1 LIMIT 1
+in D:\wamp\www\sns\protected\controllers\UserController.php (70)
+in D:\wamp\www\sns\protected\controllers\UserController.php (39)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user_extend`
+in D:\wamp\www\sns\protected\models\UserExtend.php (28)
+in D:\wamp\www\sns\protected\controllers\UserController.php (40)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user_extend`
+in D:\wamp\www\sns\protected\models\UserExtend.php (28)
+in D:\wamp\www\sns\protected\controllers\UserController.php (40)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:15 [trace] [system.db.ar.CActiveRecord] UserExtend.findByAttributes()
+in D:\wamp\www\sns\protected\controllers\UserController.php (40)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `l_user_extend` `t` WHERE `t`.`user_id`=:yp0 LIMIT 1. Bound with :yp0='1'
+in D:\wamp\www\sns\protected\controllers\UserController.php (40)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_area`
+in D:\wamp\www\sns\protected\models\Area.php (20)
+in D:\wamp\www\sns\protected\views\user\view.php (60)
+in D:\wamp\www\sns\protected\controllers\UserController.php (41)
+2013/05/14 20:44:15 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_area`
+in D:\wamp\www\sns\protected\models\Area.php (20)
+in D:\wamp\www\sns\protected\views\user\view.php (60)
+in D:\wamp\www\sns\protected\controllers\UserController.php (41)
+2013/05/14 20:44:15 [trace] [system.db.ar.CActiveRecord] Area.findByPk()
+in D:\wamp\www\sns\protected\models\Area.php (92)
+in D:\wamp\www\sns\protected\views\user\view.php (60)
+in D:\wamp\www\sns\protected\controllers\UserController.php (41)
+2013/05/14 20:44:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `l_area` `t` WHERE `t`.`id`=3142 LIMIT 1
+in D:\wamp\www\sns\protected\models\Area.php (92)
+in D:\wamp\www\sns\protected\views\user\view.php (60)
+in D:\wamp\www\sns\protected\controllers\UserController.php (41)
+2013/05/14 20:44:15 [trace] [system.db.ar.CActiveRecord] Area.findByPk()
+in D:\wamp\www\sns\protected\models\Area.php (96)
+in D:\wamp\www\sns\protected\views\user\view.php (60)
+in D:\wamp\www\sns\protected\controllers\UserController.php (41)
+2013/05/14 20:44:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `l_area` `t` WHERE `t`.`id`=3140 LIMIT 1
+in D:\wamp\www\sns\protected\models\Area.php (96)
+in D:\wamp\www\sns\protected\views\user\view.php (60)
+in D:\wamp\www\sns\protected\controllers\UserController.php (41)
+2013/05/14 20:44:15 [trace] [system.db.ar.CActiveRecord] Area.findByPk()
+in D:\wamp\www\sns\protected\models\Area.php (96)
+in D:\wamp\www\sns\protected\views\user\view.php (60)
+in D:\wamp\www\sns\protected\controllers\UserController.php (41)
+2013/05/14 20:44:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `l_area` `t` WHERE `t`.`id`=3125 LIMIT 1
+in D:\wamp\www\sns\protected\models\Area.php (96)
+in D:\wamp\www\sns\protected\views\user\view.php (60)
+in D:\wamp\www\sns\protected\controllers\UserController.php (41)
+2013/05/14 20:44:15 [trace] [system.db.ar.CActiveRecord] Area.findByPk()
+in D:\wamp\www\sns\protected\models\Area.php (92)
+in D:\wamp\www\sns\protected\views\user\view.php (64)
+in D:\wamp\www\sns\protected\controllers\UserController.php (41)
+2013/05/14 20:44:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `l_area` `t` WHERE `t`.`id`=2343 LIMIT 1
+in D:\wamp\www\sns\protected\models\Area.php (92)
+in D:\wamp\www\sns\protected\views\user\view.php (64)
+in D:\wamp\www\sns\protected\controllers\UserController.php (41)
+2013/05/14 20:44:15 [trace] [system.db.ar.CActiveRecord] Area.findByPk()
+in D:\wamp\www\sns\protected\models\Area.php (96)
+in D:\wamp\www\sns\protected\views\user\view.php (64)
+in D:\wamp\www\sns\protected\controllers\UserController.php (41)
+2013/05/14 20:44:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `l_area` `t` WHERE `t`.`id`=2341 LIMIT 1
+in D:\wamp\www\sns\protected\models\Area.php (96)
+in D:\wamp\www\sns\protected\views\user\view.php (64)
+in D:\wamp\www\sns\protected\controllers\UserController.php (41)
+2013/05/14 20:44:15 [trace] [system.db.ar.CActiveRecord] Area.findByPk()
+in D:\wamp\www\sns\protected\models\Area.php (96)
+in D:\wamp\www\sns\protected\views\user\view.php (64)
+in D:\wamp\www\sns\protected\controllers\UserController.php (41)
+2013/05/14 20:44:15 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `l_area` `t` WHERE `t`.`id`=2299 LIMIT 1
+in D:\wamp\www\sns\protected\models\Area.php (96)
+in D:\wamp\www\sns\protected\views\user\view.php (64)
+in D:\wamp\www\sns\protected\controllers\UserController.php (41)
+2013/05/14 20:44:18 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:26 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (108)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_talk_list`
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (108)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_talk_list`
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (108)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:26 [trace] [system.db.ar.CActiveRecord] TalkList.count()
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `l_talk_list` `t` WHERE user_id=1
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:26 [trace] [system.db.ar.CActiveRecord] TalkList.findAll()
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `l_talk_list` `t` WHERE user_id=1 ORDER BY create_time DESC LIMIT 10
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:26 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.user
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`pic` AS `t1_c3`, `user`.`nickname` AS `t1_c4`, `user`.`user_sign` AS `t1_c5`, `user`.`name` AS `t1_c6`, `user`.`english_name` AS `t1_c7`, `user`.`gender` AS `t1_c8`, `user`.`birthday` AS `t1_c9`, `user`.`horoscope` AS `t1_c10`, `user`.`blood_type` AS `t1_c11`, `user`.`current_live_id` AS `t1_c12`, `user`.`hometown_id` AS `t1_c13` FROM `l_user` `user`  WHERE (`user`.`id`=:ypl0). Bound with :ypl0='1'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.content
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_talk`
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_talk`
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `content`.`id` AS `t1_c0`, `content`.`user_id` AS `t1_c1`, `content`.`content` AS `t1_c2`, `content`.`transmit_count` AS `t1_c3`, `content`.`create_time` AS `t1_c4` FROM `l_talk` `content`  WHERE (`content`.`id`=:ypl0). Bound with :ypl0='141'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.talk_comment_count
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_talk_comment`
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_talk_comment`
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `list_id` AS `c`, COUNT(*) AS `s` FROM `l_talk_comment` `t` WHERE (`t`.`list_id`=159) GROUP BY `list_id`
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.user
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`pic` AS `t1_c3`, `user`.`nickname` AS `t1_c4`, `user`.`user_sign` AS `t1_c5`, `user`.`name` AS `t1_c6`, `user`.`english_name` AS `t1_c7`, `user`.`gender` AS `t1_c8`, `user`.`birthday` AS `t1_c9`, `user`.`horoscope` AS `t1_c10`, `user`.`blood_type` AS `t1_c11`, `user`.`current_live_id` AS `t1_c12`, `user`.`hometown_id` AS `t1_c13` FROM `l_user` `user`  WHERE (`user`.`id`=:ypl0). Bound with :ypl0='1'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.content
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `content`.`id` AS `t1_c0`, `content`.`user_id` AS `t1_c1`, `content`.`content` AS `t1_c2`, `content`.`transmit_count` AS `t1_c3`, `content`.`create_time` AS `t1_c4` FROM `l_talk` `content`  WHERE (`content`.`id`=:ypl0). Bound with :ypl0='140'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.talk_comment_count
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `list_id` AS `c`, COUNT(*) AS `s` FROM `l_talk_comment` `t` WHERE (`t`.`list_id`=158) GROUP BY `list_id`
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.user
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`pic` AS `t1_c3`, `user`.`nickname` AS `t1_c4`, `user`.`user_sign` AS `t1_c5`, `user`.`name` AS `t1_c6`, `user`.`english_name` AS `t1_c7`, `user`.`gender` AS `t1_c8`, `user`.`birthday` AS `t1_c9`, `user`.`horoscope` AS `t1_c10`, `user`.`blood_type` AS `t1_c11`, `user`.`current_live_id` AS `t1_c12`, `user`.`hometown_id` AS `t1_c13` FROM `l_user` `user`  WHERE (`user`.`id`=:ypl0). Bound with :ypl0='1'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.content
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `content`.`id` AS `t1_c0`, `content`.`user_id` AS `t1_c1`, `content`.`content` AS `t1_c2`, `content`.`transmit_count` AS `t1_c3`, `content`.`create_time` AS `t1_c4` FROM `l_talk` `content`  WHERE (`content`.`id`=:ypl0). Bound with :ypl0='139'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.talk_comment_count
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `list_id` AS `c`, COUNT(*) AS `s` FROM `l_talk_comment` `t` WHERE (`t`.`list_id`=157) GROUP BY `list_id`
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.user
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`pic` AS `t1_c3`, `user`.`nickname` AS `t1_c4`, `user`.`user_sign` AS `t1_c5`, `user`.`name` AS `t1_c6`, `user`.`english_name` AS `t1_c7`, `user`.`gender` AS `t1_c8`, `user`.`birthday` AS `t1_c9`, `user`.`horoscope` AS `t1_c10`, `user`.`blood_type` AS `t1_c11`, `user`.`current_live_id` AS `t1_c12`, `user`.`hometown_id` AS `t1_c13` FROM `l_user` `user`  WHERE (`user`.`id`=:ypl0). Bound with :ypl0='1'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.content
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `content`.`id` AS `t1_c0`, `content`.`user_id` AS `t1_c1`, `content`.`content` AS `t1_c2`, `content`.`transmit_count` AS `t1_c3`, `content`.`create_time` AS `t1_c4` FROM `l_talk` `content`  WHERE (`content`.`id`=:ypl0). Bound with :ypl0='138'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.talk_comment_count
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `list_id` AS `c`, COUNT(*) AS `s` FROM `l_talk_comment` `t` WHERE (`t`.`list_id`=156) GROUP BY `list_id`
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.user
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`pic` AS `t1_c3`, `user`.`nickname` AS `t1_c4`, `user`.`user_sign` AS `t1_c5`, `user`.`name` AS `t1_c6`, `user`.`english_name` AS `t1_c7`, `user`.`gender` AS `t1_c8`, `user`.`birthday` AS `t1_c9`, `user`.`horoscope` AS `t1_c10`, `user`.`blood_type` AS `t1_c11`, `user`.`current_live_id` AS `t1_c12`, `user`.`hometown_id` AS `t1_c13` FROM `l_user` `user`  WHERE (`user`.`id`=:ypl0). Bound with :ypl0='1'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.content
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `content`.`id` AS `t1_c0`, `content`.`user_id` AS `t1_c1`, `content`.`content` AS `t1_c2`, `content`.`transmit_count` AS `t1_c3`, `content`.`create_time` AS `t1_c4` FROM `l_talk` `content`  WHERE (`content`.`id`=:ypl0). Bound with :ypl0='137'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.talk_comment_count
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `list_id` AS `c`, COUNT(*) AS `s` FROM `l_talk_comment` `t` WHERE (`t`.`list_id`=155) GROUP BY `list_id`
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.user
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`pic` AS `t1_c3`, `user`.`nickname` AS `t1_c4`, `user`.`user_sign` AS `t1_c5`, `user`.`name` AS `t1_c6`, `user`.`english_name` AS `t1_c7`, `user`.`gender` AS `t1_c8`, `user`.`birthday` AS `t1_c9`, `user`.`horoscope` AS `t1_c10`, `user`.`blood_type` AS `t1_c11`, `user`.`current_live_id` AS `t1_c12`, `user`.`hometown_id` AS `t1_c13` FROM `l_user` `user`  WHERE (`user`.`id`=:ypl0). Bound with :ypl0='1'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.content
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `content`.`id` AS `t1_c0`, `content`.`user_id` AS `t1_c1`, `content`.`content` AS `t1_c2`, `content`.`transmit_count` AS `t1_c3`, `content`.`create_time` AS `t1_c4` FROM `l_talk` `content`  WHERE (`content`.`id`=:ypl0). Bound with :ypl0='136'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.talk_comment_count
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `list_id` AS `c`, COUNT(*) AS `s` FROM `l_talk_comment` `t` WHERE (`t`.`list_id`=154) GROUP BY `list_id`
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.user
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`pic` AS `t1_c3`, `user`.`nickname` AS `t1_c4`, `user`.`user_sign` AS `t1_c5`, `user`.`name` AS `t1_c6`, `user`.`english_name` AS `t1_c7`, `user`.`gender` AS `t1_c8`, `user`.`birthday` AS `t1_c9`, `user`.`horoscope` AS `t1_c10`, `user`.`blood_type` AS `t1_c11`, `user`.`current_live_id` AS `t1_c12`, `user`.`hometown_id` AS `t1_c13` FROM `l_user` `user`  WHERE (`user`.`id`=:ypl0). Bound with :ypl0='1'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.content
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `content`.`id` AS `t1_c0`, `content`.`user_id` AS `t1_c1`, `content`.`content` AS `t1_c2`, `content`.`transmit_count` AS `t1_c3`, `content`.`create_time` AS `t1_c4` FROM `l_talk` `content`  WHERE (`content`.`id`=:ypl0). Bound with :ypl0='136'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.talk_comment_count
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `list_id` AS `c`, COUNT(*) AS `s` FROM `l_talk_comment` `t` WHERE (`t`.`list_id`=153) GROUP BY `list_id`
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.user
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`pic` AS `t1_c3`, `user`.`nickname` AS `t1_c4`, `user`.`user_sign` AS `t1_c5`, `user`.`name` AS `t1_c6`, `user`.`english_name` AS `t1_c7`, `user`.`gender` AS `t1_c8`, `user`.`birthday` AS `t1_c9`, `user`.`horoscope` AS `t1_c10`, `user`.`blood_type` AS `t1_c11`, `user`.`current_live_id` AS `t1_c12`, `user`.`hometown_id` AS `t1_c13` FROM `l_user` `user`  WHERE (`user`.`id`=:ypl0). Bound with :ypl0='1'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.content
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `content`.`id` AS `t1_c0`, `content`.`user_id` AS `t1_c1`, `content`.`content` AS `t1_c2`, `content`.`transmit_count` AS `t1_c3`, `content`.`create_time` AS `t1_c4` FROM `l_talk` `content`  WHERE (`content`.`id`=:ypl0). Bound with :ypl0='135'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.talk_comment_count
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `list_id` AS `c`, COUNT(*) AS `s` FROM `l_talk_comment` `t` WHERE (`t`.`list_id`=152) GROUP BY `list_id`
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.user
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`pic` AS `t1_c3`, `user`.`nickname` AS `t1_c4`, `user`.`user_sign` AS `t1_c5`, `user`.`name` AS `t1_c6`, `user`.`english_name` AS `t1_c7`, `user`.`gender` AS `t1_c8`, `user`.`birthday` AS `t1_c9`, `user`.`horoscope` AS `t1_c10`, `user`.`blood_type` AS `t1_c11`, `user`.`current_live_id` AS `t1_c12`, `user`.`hometown_id` AS `t1_c13` FROM `l_user` `user`  WHERE (`user`.`id`=:ypl0). Bound with :ypl0='1'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.content
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `content`.`id` AS `t1_c0`, `content`.`user_id` AS `t1_c1`, `content`.`content` AS `t1_c2`, `content`.`transmit_count` AS `t1_c3`, `content`.`create_time` AS `t1_c4` FROM `l_talk` `content`  WHERE (`content`.`id`=:ypl0). Bound with :ypl0='135'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.talk_comment_count
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `list_id` AS `c`, COUNT(*) AS `s` FROM `l_talk_comment` `t` WHERE (`t`.`list_id`=151) GROUP BY `list_id`
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.user
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`username` AS `t1_c1`, `user`.`password` AS `t1_c2`, `user`.`pic` AS `t1_c3`, `user`.`nickname` AS `t1_c4`, `user`.`user_sign` AS `t1_c5`, `user`.`name` AS `t1_c6`, `user`.`english_name` AS `t1_c7`, `user`.`gender` AS `t1_c8`, `user`.`birthday` AS `t1_c9`, `user`.`horoscope` AS `t1_c10`, `user`.`blood_type` AS `t1_c11`, `user`.`current_live_id` AS `t1_c12`, `user`.`hometown_id` AS `t1_c13` FROM `l_user` `user`  WHERE (`user`.`id`=:ypl0). Bound with :ypl0='1'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (9)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.content
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `content`.`id` AS `t1_c0`, `content`.`user_id` AS `t1_c1`, `content`.`content` AS `t1_c2`, `content`.`transmit_count` AS `t1_c3`, `content`.`create_time` AS `t1_c4` FROM `l_talk` `content`  WHERE (`content`.`id`=:ypl0). Bound with :ypl0='135'
+in D:\wamp\www\sns\protected\views\talkList\_view.php (12)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.ar.CActiveRecord] lazy loading TalkList.talk_comment_count
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT `list_id` AS `c`, COUNT(*) AS `s` FROM `l_talk_comment` `t` WHERE (`t`.`list_id`=150) GROUP BY `list_id`
+in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/14 20:44:29 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:51 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:53 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:59 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:44:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:45:00 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:45:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:45:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:13 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:13 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='sss'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:26 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:28 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:28 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:29 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='luo'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:53 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:55 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:55 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:57:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='luo'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:58:46 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:58:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:58:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:58:48 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:58:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:58:48 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:58:48 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='luo'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:59:09 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:59:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:59:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:59:13 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:59:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:59:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:59:13 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:59:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='luo'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:59:53 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:59:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:59:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:59:59 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:59:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 20:59:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:00:02 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:00:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:00:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:00:02 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:00:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='luo'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:00:59 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:00:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:00:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:00:59 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:00:59 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='luo'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:01:26 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:01:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:01:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:01:30 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:01:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:01:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:01:30 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:01:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='luo'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:02:35 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:02:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:02:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:02:37 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:02:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:02:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:02:52 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:02:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:02:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:02:54 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:02:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:02:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:02:56 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:02:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:02:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:02:56 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:02:56 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='luo'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:03:03 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:03:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:03:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:03:04 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:03:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='luo'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:03:06 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:03:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:03:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:03:25 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:03:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:03:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:03:25 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:03:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='luo'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:04:33 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:04:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:04:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:04:36 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:04:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:04:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:04:39 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:04:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:04:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:04:40 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:04:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='luo'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:05:34 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:05:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 21:05:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:08:53 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:08:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:08:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:25:34 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:25:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:25:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:25:34 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:25:34 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='131123'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:27:42 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:27:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:27:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:27:42 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:27:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='1331'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:28:34 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:28:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:28:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:28:34 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:28:34 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='1331'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:28:39 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:28:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:28:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:28:39 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:28:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='1331'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:30:03 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:30:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:30:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:30:03 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:30:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='1331'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:31:39 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:31:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:31:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:31:51 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:31:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:31:52 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:31:52 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:31:52 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='123214'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:34:13 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:34:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:34:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:34:23 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:34:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:34:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:48:19 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:48:19 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:48:19 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:48:29 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:48:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:48:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:48:29 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:48:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='12322'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:48:31 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:48:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:48:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:48:32 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:48:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='12322'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:49:01 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:49:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:49:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:03 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:03 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='12322'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:13 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:13 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='123'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:21 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:21 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='1234'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:29 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:30 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:50:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='1234'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:56:36 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:56:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:56:36 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:56:36 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:56:36 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='1234'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:56:48 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:56:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:56:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:57:04 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:57:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:57:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:57:04 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 22:57:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='12312312'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:02:40 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:02:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:02:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:02:50 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:02:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:02:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:02:50 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:02:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='12312312'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:04:02 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:04:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:04:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:04:08 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:04:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:04:08 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:04:08 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:04:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='21312312'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:05:26 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:05:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:05:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:05:33 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:05:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:05:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:05:33 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:05:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='123123'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:05:43 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:05:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:05:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:05:53 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:05:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:05:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:05:53 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:05:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='2312'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:14:35 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:14:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:14:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:14:57 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:14:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:14:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:16:29 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:16:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:16:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:16:40 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:16:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:16:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:16:40 [trace] [system.db.ar.CActiveRecord] User.insert()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:16:40 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `l_user` (`username`, `nickname`, `password`) VALUES (:yp0, :yp1, :yp2). Bound with :yp0='1213', :yp1='123', :yp2='123'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:16:41 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:16:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:16:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:16:45 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:16:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:16:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:47:46 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:47:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:47:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:47:54 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:47:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:47:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:47:54 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:47:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='123212313'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:48:05 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:48:05 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:48:05 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:48:12 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:48:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:48:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:48:12 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:48:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='12321312'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:48:12 [trace] [system.db.ar.CActiveRecord] User.insert()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:48:12 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `l_user` (`username`, `nickname`, `password`) VALUES (:yp0, :yp1, :yp2). Bound with :yp0='12321312', :yp1='123123', :yp2='123'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:48:13 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:48:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:48:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:48:16 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:48:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:48:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:48:18 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:48:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/14 23:48:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:16:12 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:16:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:16:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:16:14 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:16:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:16:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:16:26 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:16:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:16:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:16:26 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:16:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='21312'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:16:26 [trace] [system.db.ar.CActiveRecord] User.insert()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:16:26 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `l_user` (`username`, `nickname`, `password`) VALUES (:yp0, :yp1, :yp2). Bound with :yp0='21312', :yp1='luo23', :yp2='202cb962ac59075b964b07152d234b70'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:16:26 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:16:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:16:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:48:48 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:48:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:48:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:48:54 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:48:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:48:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\controllers\SiteController.php (66)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:48:55 [trace] [system.db.ar.CActiveRecord] User.exists()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT 1 FROM `l_user` `t` WHERE `t`.`username`=:ycp0 LIMIT 1. Bound with :ycp0='1312'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:48:55 [trace] [system.db.ar.CActiveRecord] User.insert()
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:48:55 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `l_user` (`username`, `nickname`, `password`) VALUES (:yp0, :yp1, :yp2). Bound with :yp0='1312', :yp1='luo23123', :yp2='202cb962ac59075b964b07152d234b70'
+in D:\wamp\www\sns\protected\controllers\SiteController.php (76)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:48:55 [trace] [system.db.ar.CActiveRecord] User.find()
+in D:\wamp\www\sns\protected\components\UserIdentity.php (20)
+in D:\wamp\www\sns\protected\models\LoginForm.php (64)
+in D:\wamp\www\sns\protected\controllers\SiteController.php (79)
+2013/05/15 20:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `l_user` `t` WHERE LOWER(username)=? LIMIT 1. Bound with 0='1312'
+in D:\wamp\www\sns\protected\components\UserIdentity.php (20)
+in D:\wamp\www\sns\protected\models\LoginForm.php (64)
+in D:\wamp\www\sns\protected\controllers\SiteController.php (79)
+2013/05/15 20:48:55 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:48:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:48:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:49:07 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\models\User.php (34)
+in D:\wamp\www\sns\protected\controllers\UserController.php (70)
+in D:\wamp\www\sns\protected\controllers\UserController.php (39)
+2013/05/15 20:49:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user`
+in D:\wamp\www\sns\protected\models\User.php (34)
+in D:\wamp\www\sns\protected\controllers\UserController.php (70)
+in D:\wamp\www\sns\protected\controllers\UserController.php (39)
+2013/05/15 20:49:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user`
+in D:\wamp\www\sns\protected\models\User.php (34)
+in D:\wamp\www\sns\protected\controllers\UserController.php (70)
+in D:\wamp\www\sns\protected\controllers\UserController.php (39)
+2013/05/15 20:49:07 [trace] [system.db.ar.CActiveRecord] User.findByPk()
+in D:\wamp\www\sns\protected\controllers\UserController.php (70)
+in D:\wamp\www\sns\protected\controllers\UserController.php (39)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:49:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `l_user` `t` WHERE `t`.`id`=12 LIMIT 1
+in D:\wamp\www\sns\protected\controllers\UserController.php (70)
+in D:\wamp\www\sns\protected\controllers\UserController.php (39)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:49:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_user_extend`
+in D:\wamp\www\sns\protected\models\UserExtend.php (28)
+in D:\wamp\www\sns\protected\controllers\UserController.php (40)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:49:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_user_extend`
+in D:\wamp\www\sns\protected\models\UserExtend.php (28)
+in D:\wamp\www\sns\protected\controllers\UserController.php (40)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:49:07 [trace] [system.db.ar.CActiveRecord] UserExtend.findByAttributes()
+in D:\wamp\www\sns\protected\controllers\UserController.php (40)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:49:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `l_user_extend` `t` WHERE `t`.`user_id`=:yp0 LIMIT 1. Bound with :yp0='12'
+in D:\wamp\www\sns\protected\controllers\UserController.php (40)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:49:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_area`
+in D:\wamp\www\sns\protected\models\Area.php (20)
+in D:\wamp\www\sns\protected\views\user\view.php (60)
+in D:\wamp\www\sns\protected\controllers\UserController.php (41)
+2013/05/15 20:49:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_area`
+in D:\wamp\www\sns\protected\models\Area.php (20)
+in D:\wamp\www\sns\protected\views\user\view.php (60)
+in D:\wamp\www\sns\protected\controllers\UserController.php (41)
+2013/05/15 20:49:07 [trace] [system.db.ar.CActiveRecord] Area.findByPk()
+in D:\wamp\www\sns\protected\models\Area.php (92)
+in D:\wamp\www\sns\protected\views\user\view.php (60)
+in D:\wamp\www\sns\protected\controllers\UserController.php (41)
+2013/05/15 20:49:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `l_area` `t` WHERE `t`.`id`=0 LIMIT 1
+in D:\wamp\www\sns\protected\models\Area.php (92)
+in D:\wamp\www\sns\protected\views\user\view.php (60)
+in D:\wamp\www\sns\protected\controllers\UserController.php (41)
+2013/05/15 20:50:26 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:31 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:41 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:43 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:51 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (108)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_talk_list`
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (108)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_talk_list`
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (108)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:51 [trace] [system.db.ar.CActiveRecord] TalkList.count()
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `l_talk_list` `t` WHERE user_id=12
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:51 [trace] [system.db.ar.CActiveRecord] TalkList.findAll()
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:51 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `l_talk_list` `t` WHERE user_id=12 ORDER BY create_time DESC LIMIT 10
+in D:\wamp\www\sns\protected\views\talkList\index.php (80)
+in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:55 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\TalkController.php (65)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_talk`
+in D:\wamp\www\sns\protected\controllers\TalkController.php (65)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_talk`
+in D:\wamp\www\sns\protected\controllers\TalkController.php (65)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:55 [trace] [system.db.ar.CActiveRecord] Talk.insert()
+in D:\wamp\www\sns\protected\controllers\TalkController.php (73)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:55 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `l_talk` (`content`, `user_id`, `create_time`) VALUES (:yp0, :yp1, :yp2). Bound with :yp0='走过人生的路程, 我们一起留下的回忆……', :yp1=12, :yp2=1368622255
+in D:\wamp\www\sns\protected\controllers\TalkController.php (73)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:50:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_talk_list`
+in D:\wamp\www\sns\protected\models\TalkList.php (23)
+in D:\wamp\www\sns\protected\models\Talk.php (115)
+in D:\wamp\www\sns\protected\controllers\TalkController.php (73)
+2013/05/15 20:50:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_talk_list`
+in D:\wamp\www\sns\protected\models\TalkList.php (23)
+in D:\wamp\www\sns\protected\models\Talk.php (115)
+in D:\wamp\www\sns\protected\controllers\TalkController.php (73)
+2013/05/15 20:50:56 [trace] [system.db.ar.CActiveRecord] TalkList.insert()
+in D:\wamp\www\sns\protected\models\TalkList.php (115)
+in D:\wamp\www\sns\protected\models\Talk.php (115)
+in D:\wamp\www\sns\protected\controllers\TalkController.php (73)
+2013/05/15 20:50:56 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `l_talk_list` (`user_id`, `talk_id`, `create_time`, `comment_id`) VALUES (:yp0, :yp1, :yp2, :yp3). Bound with :yp0=12, :yp1=142, :yp2=1368622256, :yp3=0
+in D:\wamp\www\sns\protected\models\TalkList.php (115)
+in D:\wamp\www\sns\protected\models\Talk.php (115)
+in D:\wamp\www\sns\protected\controllers\TalkController.php (73)
+2013/05/15 20:51:16 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\TalkController.php (65)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:51:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_talk`
+in D:\wamp\www\sns\protected\controllers\TalkController.php (65)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:51:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_talk`
+in D:\wamp\www\sns\protected\controllers\TalkController.php (65)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:51:16 [trace] [system.db.ar.CActiveRecord] Talk.insert()
+in D:\wamp\www\sns\protected\controllers\TalkController.php (73)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:51:16 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `l_talk` (`content`, `user_id`, `create_time`) VALUES (:yp0, :yp1, :yp2). Bound with :yp0='注册功能, 真的比想象中的难好多', :yp1=12, :yp2=1368622276
+in D:\wamp\www\sns\protected\controllers\TalkController.php (73)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:51:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_talk_list`
+in D:\wamp\www\sns\protected\models\TalkList.php (23)
+in D:\wamp\www\sns\protected\models\Talk.php (115)
+in D:\wamp\www\sns\protected\controllers\TalkController.php (73)
+2013/05/15 20:51:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_talk_list`
+in D:\wamp\www\sns\protected\models\TalkList.php (23)
+in D:\wamp\www\sns\protected\models\Talk.php (115)
+in D:\wamp\www\sns\protected\controllers\TalkController.php (73)
+2013/05/15 20:51:16 [trace] [system.db.ar.CActiveRecord] TalkList.insert()
+in D:\wamp\www\sns\protected\models\TalkList.php (115)
+in D:\wamp\www\sns\protected\models\Talk.php (115)
+in D:\wamp\www\sns\protected\controllers\TalkController.php (73)
+2013/05/15 20:51:16 [trace] [system.db.CDbCommand] Executing SQL: INSERT INTO `l_talk_list` (`user_id`, `talk_id`, `create_time`, `comment_id`) VALUES (:yp0, :yp1, :yp2, :yp3). Bound with :yp0=12, :yp1=143, :yp2=1368622276, :yp3=0
+in D:\wamp\www\sns\protected\models\TalkList.php (115)
+in D:\wamp\www\sns\protected\models\Talk.php (115)
+in D:\wamp\www\sns\protected\controllers\TalkController.php (73)
+2013/05/15 20:51:18 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:51:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:51:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:51:23 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:51:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:51:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:51:25 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:51:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:51:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:59:18 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:59:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:59:18 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:59:33 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:59:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:59:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:59:38 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:59:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)
+2013/05/15 20:59:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\wamp\www\sns\protected\controllers\MessageController.php (127)
+in D:\wamp\www\sns\index.php (13)

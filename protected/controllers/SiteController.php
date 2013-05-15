@@ -63,7 +63,7 @@ class SiteController extends Controller
 	}
 
     public function actionRegister(){
-        $user = new User;
+        $user = new User('register');
 
         if(isset($_POST['ajax']) && $_POST['ajax']==='register-form'){
             echo CActiveForm::validate($user);
@@ -72,8 +72,11 @@ class SiteController extends Controller
 
         if(isset($_POST['User'])){
             $user->attributes=$_POST['User'];
-            // validate user input and redirect to the previous page if valid
+
             if($user->save()){
+                $login = new LoginForm;
+                $login->attributes = array('username'=>$_POST['User']['username'],'password'=>$_POST['User']['password']);
+                $login->login();
                 $this->redirect(Yii::app()->homeUrl);
             }
         }

@@ -24,85 +24,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="public.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/public.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SiteController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="16" selection-start="513" selection-end="513" vertical-scroll-proportion="-7.8461537">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="70" selection-start="1912" selection-end="1912" vertical-scroll-proportion="-13.730769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="talk.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/talk.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="11" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1368456967514" expanded="false" signature="2616:2630" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protected/views/site/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="57" selection-start="1410" selection-end="1410" vertical-scroll-proportion="0.47635728">
-              <folding>
-                <marker date="1368449081902" expanded="true" signature="840:899" placeholder="..." />
-                <marker date="1368449081902" expanded="true" signature="1254:1301" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/site/register.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="79" selection-start="1977" selection-end="1977" vertical-scroll-proportion="-14.769231">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/models/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="74" selection-start="1641" selection-end="1641" vertical-scroll-proportion="-13.461538">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/register.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="68" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -123,11 +45,11 @@
         <option value="$PROJECT_DIR$/protected/views/site/login.php" />
         <option value="$PROJECT_DIR$/css/login.css" />
         <option value="$PROJECT_DIR$/protected/views/site/register.php" />
-        <option value="$PROJECT_DIR$/css/register.css" />
-        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/js/talk.js" />
-        <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/css/register.css" />
         <option value="$PROJECT_DIR$/protected/models/User.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
       </list>
     </option>
   </component>
@@ -180,6 +102,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -414,13 +337,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -477,13 +413,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.670947" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21656051" sideWeight="0.67255217" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2245223" sideWeight="0.67255217" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -551,114 +487,110 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/yii/web/auth/CWebUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="375" column="12" selection-start="13483" selection-end="13483" vertical-scroll-proportion="0.72190475" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/WebUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="34" selection-end="34" vertical-scroll-proportion="0.030909091" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/LoginForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="33" selection-start="839" selection-end="839" vertical-scroll-proportion="0.65499127" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/yii/base/CApplication.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="558" column="23" selection-start="19417" selection-end="19417" vertical-scroll-proportion="0.3625219">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="12" selection-start="967" selection-end="967" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/message/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="47" selection-start="916" selection-end="916" vertical-scroll-proportion="-4.1208405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="45" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/talk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="11" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.31323284" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="45" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/talk.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="11" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1368456967514" expanded="false" signature="2616:2630" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/public.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="16" selection-start="513" selection-end="513" vertical-scroll-proportion="-7.8461537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="70" selection-start="1912" selection-end="1912" vertical-scroll-proportion="-13.730769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="74" selection-start="1641" selection-end="1641" vertical-scroll-proportion="-13.461538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/register.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="68" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
+        <state line="4" column="45" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="79" selection-start="1977" selection-end="1977" vertical-scroll-proportion="-14.769231">
+        <state line="41" column="79" selection-start="1898" selection-end="1984" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Area.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="9" selection-start="2372" selection-end="2372" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="57" selection-start="1410" selection-end="1410" vertical-scroll-proportion="0.47635728">
+        <state line="29" column="57" selection-start="1353" selection-end="1414" vertical-scroll-proportion="-8.230769">
           <folding>
             <marker date="1368449081902" expanded="true" signature="840:899" placeholder="..." />
             <marker date="1368449081902" expanded="true" signature="1254:1301" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/yii/web/CFormModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="6" selection-start="781" selection-end="781" vertical-scroll-proportion="0.08056042">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/yii/cli/views/webapp/protected/models/LoginForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="31" selection-start="192" selection-end="192" vertical-scroll-proportion="0.2084063">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/UserIdentity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="31" selection-start="895" selection-end="904" vertical-scroll-proportion="0.95271456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="20" selection-start="4405" selection-end="4405" vertical-scroll-proportion="-13.923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="30" selection-start="2137" selection-end="2137" vertical-scroll-proportion="0.5691769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/LoginForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="37" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.46409807">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="32" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.61295974">
+          <folding />
         </state>
       </provider>
     </entry>

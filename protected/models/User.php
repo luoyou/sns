@@ -23,6 +23,12 @@ class User extends CActiveRecord
 {
     public $re_password;
 
+    public $sex = array('男','女');
+
+    public $constellation = array('白羊座','金牛座','双子座','巨蟹座','狮子座','处女座','天秤座','天蝎座','射手座','摩羯座','水平座','双鱼座');
+
+    public $blood = array('A型','B型','O型','AB型','其他');
+
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
@@ -46,13 +52,14 @@ class User extends CActiveRecord
 		return array(
 			//array('username, password, pic, nickname, user_sign, name, english_name, gender, birthday, horoscope, blood_type, current_live_id, hometown_id', 'required'),
 			array('gender, birthday, horoscope, blood_type, current_live_id, hometown_id', 'numerical', 'integerOnly'=>true),
-			array('username, password,re_password, pic', 'length', 'max'=>32),
-			array('nickname', 'length', 'max'=>16),
+			array('username,password,re_password,pic', 'length', 'max'=>32),
+			array('username','unique'),
+            array('nickname', 'length', 'max'=>16),
 			array('user_sign', 'length', 'max'=>64),
 			array('name', 'length', 'max'=>6),
 			array('english_name', 'length', 'max'=>12),
-            array('password', 'compare', 'compareAttribute'=>'re_password'),
-			array('id, username, password,re_password, pic, nickname, user_sign, name, english_name, gender, birthday, horoscope, blood_type, current_live_id, hometown_id', 'safe', 'on'=>'search'),
+            array('password', 'compare', 'compareAttribute'=>'re_password','on'=>'register'),
+			array('id, username, password,re_password , pic, nickname, user_sign, name, english_name, gender, birthday, horoscope, blood_type, current_live_id, hometown_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -122,26 +129,19 @@ class User extends CActiveRecord
 		));
 	}
 
-    /**
-     * @param $password
-     * @return bool
-     */
     public function validatePassword($password){
         return $this->encrypt($password) === $this->password;
     }
 
-    /**
-     * encrypt md5()
-     * @param $password
-     * @return string
-     */
     public function encrypt($password){
         return md5($password);
     }
 
-    public $sex = array('男','女');
-
-    public $constellation = array('白羊座','金牛座','双子座','巨蟹座','狮子座','处女座','天秤座','天蝎座','射手座','摩羯座','水平座','双鱼座');
-
-    public $blood = array('A型','B型','O型','AB型','其他');
+    public function beforeSave(){
+        if($this->isNewRecord){
+            $this->password = $this->encrypt($this->password);
+        }
+        parent::beforeSave();
+        return true;
+    }
 }
