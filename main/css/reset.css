@@ -1,0 +1,67 @@
+/*
+KISSY CSS Reset
+閻炲棗搴烽敍锟斤拷 reset 閻ㄥ嫮娲伴惃鍕瑝閺勵垱绔婚梽銈嗙セ鐟欏牆娅掗惃鍕帛鐠併倖鐗卞蹇ョ礉鏉╂瑤绮庨弰顖炲劥閸掑棗浼愭担婧匡拷锟藉倹绔婚梽銈呮嫲闁插秶鐤嗛弰顖滄彛鐎靛棔绗夐崣顖氬瀻閻ㄥ嫨锟斤拷锟斤拷
+     2. reset 閻ㄥ嫮娲伴惃鍕瑝閺勵垵顔�妯款吇閺嶅嘲绱￠崷銊﹀閺堝绁荤憴鍫濇珤娑撳绔撮懛杈剧礉閼板本妲搁崙蹇撶毌姒涙顓婚弽宄扮础閺堝褰查懗钘夌敨閺夈儳娈戦梻顕�暯閵嗭拷锟�
+     3. reset 閺堢喐婀滈幓鎰返娑擄拷锟芥總妤佹珮闁倿锟斤拷姘辨暏閻ㄥ嫬鐔�涵锟斤拷閺嶅嘲绱￠妴鍌欑稻濞屸剝婀侀柧璺鸿剨閿涘本甯归懡鎰壌閹诡喖鍙挎担鎾绘付濮瑰偊绱濈憗浣稿閸滃奔鎱ㄩ弨鐟版倵閸愬秳濞囬悽銊ｏ拷锟斤拷锟�
+閻楃澹婇敍锟斤拷 闁倸绨叉稉顓熸瀮閿涳拷锟�閸╄桨绨張锟斤拷閺傞瀵屽ù浣圭セ鐟欏牆娅掗妴锟斤拷
+缂佸瓨濮㈤敍姘卞竴娴硷拷锟絣ifesinger@gmail.com>, 濮濓絾鐑�ragecarrier@gmail.com>
+*/
+
+/** 濞撳懘娅庨崘鍛檱鏉堢绐�**/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 缂佹挻鐎崗鍐 */
+dl, dt, dd, ul, ol, li, /* list elements 閸掓銆冮崗鍐 */
+pre, /* text formatting elements 閺傚洦婀伴弽鐓庣础閸忓啰绀�*/
+form, fieldset, legend, button, input, textarea, /* form elements 鐞涖劌宕熼崗鍐 */
+th, td /* table elements 鐞涖劍鐗搁崗鍐 */ {
+    margin: 0;
+    padding: 0;
+	vertical-align:top;
+}
+
+/** 鐠佸墽鐤嗘妯款吇鐎涙ぞ缍�**/
+body,
+button, input, select, textarea /* for ie */ {
+    font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
+	color:#333;
+}
+button{
+	border:none;
+}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; } /* 鐏忓棙鏋╂担鎾村濮濓拷锟�*/
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 缂佺喍绔寸粵澶婎啍鐎涙ぞ缍�*/
+small { font-size: 12px; } /* 鐏忓繋绨�12px 閻ㄥ嫪鑵戦弬鍥х发闂呴箖妲勭拠浼欑礉鐠侊拷锟�small 濮濓絽鐖堕崠锟斤拷 */
+
+/** 闁插秶鐤嗛崚妤勩�閸忓啰绀�**/
+ul, ol { list-style: none; }
+
+/** 闁插秶鐤嗛弬鍥ㄦ拱閺嶇厧绱￠崗鍐 **/
+a { text-decoration: none; color:#000;}
+a:hover { text-decoration: none; color:#ff7900;}
+
+sup { vertical-align: text-top; } /* 闁插秶鐤嗛敍灞藉櫤鐏忔垵顕悰宀勭彯閻ㄥ嫬濂栭崫锟斤拷 */
+sub { vertical-align: text-bottom; }
+
+/** 闁插秶鐤嗙悰銊ュ礋閸忓啰绀�**/
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: 0; } /* img 閹碱叀婧呴敍姘愁唨闁剧偓甯撮柌宀�畱 img 閺冪姾绔熷锟斤拷 */
+button, input, select, textarea { font-size: 100%; } /* 娴ｅ灝绶辩悰銊ュ礋閸忓啰绀岄崷锟斤拷 ie 娑撳鍏樼紒褎澹欑�妞剧秼婢堆冪毈 */
+/* 濞夘煉绱皁ptgroup 閺冪姵纭堕幍鑸殿劀 */
+
+/** 闁插秶鐤嗙悰銊︾壐閸忓啰绀�**/
+
+
+/* 闁插秶鐤�HTML5 閸忓啰绀�*/
+article, aside, details, figcaption, figure, footer,header, hgroup, menu, nav, section,
+summary, time, mark, audio, video {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+mark { background: #ff0; }
+.hidden{
+	display:none;
+}
+.show{
+	display:block;
+}

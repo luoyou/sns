@@ -66,7 +66,6 @@ $('document').ready(function(){
         var current  = $(this).parentsUntil('.message_frame','.comment_view');
         var add_text = $(this).parent().parent(); 
         var add_val  = add_text.find('a').html();
-        //current.next().text("<a href='"+add_attr+"'>"+add_val+"</a>");
         current.next().focus();
     });
 
@@ -74,6 +73,7 @@ $('document').ready(function(){
      *提交评论
      */
     $('.comment_commit').click(function(){
+        alert($(this).parent().children('.comment').text());//.parent().children('.comment').attr('comment'));
         $.ajax({
             url:webUrl('/TalkList/Comment'),
             data:
@@ -86,7 +86,10 @@ $('document').ready(function(){
                 },
             type:'post',
             dataType:'json',
-            success:function(data){commentPublish(data);},
+            success:function(data){
+                var content = "<li><a href='#'><img src='"+webUrl()+"/images/"+data['pic']+"' /></a><div class='comment_main'><span class='comment_content'><a href='#'>"+data['nickname']+"</a>:"+data['content']+"</span><span class='comment_info'>"+data['create_time']+"<a class='reply'>回复</a></span></div></li>";
+                $(this).parent().children('ul').append(content);
+            },
             error:function(data){alert('评论失败');}
         });
     });
@@ -101,6 +104,3 @@ function talkPublish(data){
     $('#publish_message').text('');
 }
 
-function commentPublish(data){
-    var content = "<li><a href='#'><img src='"+webUrl()+"/images/"+data['pic']+"' /></a><div class='comment_main'><span class='comment_content'><a href='#'>"+data['nickname']+"</a>:"+data['content']+"</span><span class='comment_info'>"+data['create_time']+"<a class='reply'>回复</a></span></div></li>";
-}

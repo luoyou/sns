@@ -19,6 +19,7 @@
 				<a trans="<?php echo CHtml::encode($data->content->id); ?>" class="transmit">转发</a>
 			</span>
         </div>
+
         <div class="comment_view">
         	<ul>
                 <li>
