@@ -1,23 +1,5 @@
-body { background:#40526D; color: #D9DDE2;}
-a { color: #AAC4EE; cursor: pointer; text-decoration: none;}
-
-#header {height: 36px; background: #313131; font-family: "微软雅黑"; text-align: center; font-size: 14px;}
-#zy_content { width: 900px; background: #34445C; margin: 0 auto; overflow: auto;}
-#logo { float:left; height: 36px; width: 90px; margin-left: 165px; background: url(../images/logo.png) no-repeat; }
-#nav {margin-left: 280px; color: #ffffff;}
-#nav ul {list-style: none;}
-#nav ul li {float: left; padding: 7px 7px 0px;}
-#nav ul li a {color: #ffffff;}
-
-#input_search { vertical-align: top; width: 129px; height: 19px; border: 0px; color: #818181; outline: 0; background-color: #ededed; font-family: "微软雅黑"; text-align: center;}
-.search_icon { outline: none; border-left-style: solid; border-left-width: 1px; border-left-color: #CACACA; background-image: url(../images/icenter_lite.png); background-position: 0 -51px; cursor: pointer; display: inline-block; width: 25px; height: 21px;}
-
-.user_little_pic {margin-left: 125px; }
-.quit { margin-left: 9px;}
-.user_set { background: url(../images/icenter_lite.png) -350px -50px no-repeat ; width: 16px; height: 18px; display: block; margin-top: 2px;}
-.message { background: url(../images/icenter_lite.png) -366px 0px no-repeat; width: 16px; height: 18px; display: block; margin-top: 2px;}
 #zy_content_header{width: 100px; height: 35px; background-color: #34445C; text-align: center;}
-#zy_content_header a{display: inline-block; padding: 6px 2px; color: #D9DDE2; font-size: 14px; font-family: "微软雅黑"; }
+#zy_content_header a{display: inline-block; padding: 6px 2px; color: #D9DDE2; font-size: 14px; font-family: "微软雅黑";}
 #zy_content_main{ width: 900px; background-color: #34445C; overflow: auto;}
 .zy_content_title{width: 115px; height: 31px; border-radius: 4px; background-color: #586782; text-align: center; margin: 15px;}
 .zy_content_title  p{ font-size: 30px; font-family: "宋体";  font-weight: bold; text-align: center; margin-top: -2px; color: #ffffff;}
@@ -68,24 +50,3 @@ a { color: #AAC4EE; cursor: pointer; text-decoration: none;}
 .zy_man_bg3{margin-left:79px; font-size: 12px; font-family: "微软雅黑";}
 .zy_man_bg4{margin-left:102px; font-size: 12px; font-family: "微软雅黑";}
 .zy_right_behind_line{border-bottom: 1px solid #40516D; width: 200px; margin-left: 354px; margin-top: 14px;}
-
-#footer{text-align: center; margin-top: 10px; color: #D9DDE2; font-size: 12px;}
-
-
-
-
-
-
-
-
-
-
-clearfix:before,.clearfix:after { content: "."; display: block; height: 0; overflow: hidden; }
-.clearfix:after {clear: both;}
-.clearfix {zoom: 1;}
-
-/*=======================此处为分割线========================*/
-.pager { height: 20px; }
-.pager .yiiPager { margin-left: 180px; }
-#message_list .pager .yiiPager li { float: left; padding: 6px; margin: 0;}
-#message_list .pager .yiiPager li a{ color: #AAC4EE; }

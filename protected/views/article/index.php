@@ -1,0 +1,1 @@
+<?php Yii::app()->getClientScript()->registerCssFile("/css/diary.css");  ?>

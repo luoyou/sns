@@ -296,3 +296,57 @@ in D:\xampp\htdocs\sns\index.php (13)
 2013/05/17 09:50:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
 in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
 in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 11:30:43 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 11:30:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 11:30:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 11:32:33 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 11:32:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 11:32:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 11:34:43 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 11:34:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 11:34:44 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 11:35:05 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 11:35:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 11:35:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 11:35:48 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 11:35:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 11:35:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 11:36:08 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 11:36:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 11:36:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
