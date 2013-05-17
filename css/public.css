@@ -2,9 +2,10 @@ body { background:#40516D; color: #D9DDE2;}
 a { color: #AAC4EE; cursor: pointer; }
 
 #header {height: 36px; width: 100%; background: #313131; font-family: "微软雅黑"; text-align: center; font-size: 14px;}
+.header_center { margin: 0 auto; width: 960px; }
 #content { width: 900px; background: #34445C; margin: 36px auto; overflow: auto;}
-#logo { float:left; height: 36px; width: 90px; margin-left: 165px; background: url(../images/logo.png) no-repeat; }
-#nav {margin-left: 280px; color: #ffffff;}
+#logo { float:left; height: 36px; width: 90px; background: url(../images/logo.png) no-repeat; }
+#nav { color: #ffffff;}
 #nav ul {list-style: none;}
 #nav ul li {float: left; padding: 7px 7px 0px;}
 #nav ul li a {color: #ffffff;}
