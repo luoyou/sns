@@ -287,3 +287,12 @@ in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
 in D:\wamp\www\sns\protected\views\talkList\_view.php (17)
 in D:\wamp\www\sns\protected\views\talkList\index.php (29)
 in D:\wamp\www\sns\protected\controllers\TalkListController.php (112)
+2013/05/17 09:50:55 [trace] [system.db.CDbConnection] Opening DB connection
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 09:50:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `l_message`
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
+2013/05/17 09:50:56 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `l_message`
+in D:\xampp\htdocs\sns\protected\controllers\MessageController.php (127)
+in D:\xampp\htdocs\sns\index.php (13)
