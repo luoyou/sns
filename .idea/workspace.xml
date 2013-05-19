@@ -4,14 +4,14 @@
     <list default="true" id="1e7d33a7-c802-4fb0-ba9c-43fca3f875ca" name="Default" comment="" />
     <ignored path="sns.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/a.dummy" changelist="1e7d33a7-c802-4fb0-ba9c-43fca3f875ca" time="1368762019303" ignored="false" />
-    <file path="/diary.html" changelist="1e7d33a7-c802-4fb0-ba9c-43fca3f875ca" time="1368761994555" ignored="false" />
-    <file path="/public.css" changelist="1e7d33a7-c802-4fb0-ba9c-43fca3f875ca" time="1368761745961" ignored="false" />
-    <file path="/main.php" changelist="1e7d33a7-c802-4fb0-ba9c-43fca3f875ca" time="1368761512261" ignored="false" />
-    <file path="/diary.css" changelist="1e7d33a7-c802-4fb0-ba9c-43fca3f875ca" time="1368761860311" ignored="false" />
-    <file path="$PROJECT_DIR$/../up/up/controller/companyinfo/main.php" changelist="1e7d33a7-c802-4fb0-ba9c-43fca3f875ca" time="1368759989559" ignored="false" />
-    <file path="/index.php" changelist="1e7d33a7-c802-4fb0-ba9c-43fca3f875ca" time="1368759307200" ignored="false" />
     <file path="/ArticleController.php" changelist="1e7d33a7-c802-4fb0-ba9c-43fca3f875ca" time="1368759147579" ignored="false" />
+    <file path="/index.php" changelist="1e7d33a7-c802-4fb0-ba9c-43fca3f875ca" time="1368759307200" ignored="false" />
+    <file path="$PROJECT_DIR$/../up/up/controller/companyinfo/main.php" changelist="1e7d33a7-c802-4fb0-ba9c-43fca3f875ca" time="1368759989559" ignored="false" />
+    <file path="/diary.css" changelist="1e7d33a7-c802-4fb0-ba9c-43fca3f875ca" time="1368761860311" ignored="false" />
+    <file path="/main.php" changelist="1e7d33a7-c802-4fb0-ba9c-43fca3f875ca" time="1368761512261" ignored="false" />
+    <file path="/public.css" changelist="1e7d33a7-c802-4fb0-ba9c-43fca3f875ca" time="1368761745961" ignored="false" />
+    <file path="/diary.html" changelist="1e7d33a7-c802-4fb0-ba9c-43fca3f875ca" time="1368761994555" ignored="false" />
+    <file path="/a.dummy" changelist="1e7d33a7-c802-4fb0-ba9c-43fca3f875ca" time="1368762019303" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
       <file leaf-file-name="UserController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/controllers/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="55" selection-start="2421" selection-end="2421" vertical-scroll-proportion="0.34500876">
+            <state line="96" column="39" selection-start="3145" selection-end="3145" vertical-scroll-proportion="0.31523642">
               <folding />
             </state>
           </provider>
@@ -48,7 +48,7 @@
       <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/user/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="10" selection-start="2400" selection-end="2406" vertical-scroll-proportion="-61.46154">
+            <state line="97" column="10" selection-start="2400" selection-end="2406" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1368970340717" expanded="true" signature="3832:3860" placeholder="..." />
               </folding>
@@ -60,9 +60,7 @@
         <entry file="file://$PROJECT_DIR$/js/public.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="10" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,7 +84,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="966" column="38" selection-start="64362" selection-end="64362" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="n#!!doc" expanded="true" />
                 <marker date="1368965872308" expanded="true" signature="53387:53420" placeholder="..." />
                 <marker date="1368965872308" expanded="true" signature="53642:53724" placeholder="..." />
               </folding>
@@ -176,6 +173,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -284,6 +282,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="runtime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -333,64 +349,9 @@
               <option name="myItemId" value="user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="luo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extends" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extends" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="avatar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -399,8 +360,8 @@
     <property name="options.lastSelected" value="preferences.keymap" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -454,7 +415,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.670947" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22691083" sideWeight="0.67255217" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22691083" sideWeight="0.67255217" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -522,11 +483,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/other_info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="137" selection-start="509" selection-end="509" vertical-scroll-proportion="-6.269231" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/components/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="23" selection-start="950" selection-end="954" vertical-scroll-proportion="0.0">
@@ -543,9 +499,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/diary.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="105" selection-start="2099" selection-end="2099" vertical-scroll-proportion="0.6432161">
-          <folding />
-        </state>
+        <state line="26" column="105" selection-start="2099" selection-end="2099" vertical-scroll-proportion="0.6432161" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/talk.js">
@@ -555,53 +509,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="0" selection-start="3303" selection-end="3303" vertical-scroll-proportion="-15.730769">
-          <folding />
-        </state>
+        <state line="121" column="0" selection-start="3303" selection-end="3303" vertical-scroll-proportion="-15.730769" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/write.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="87" selection-start="571" selection-end="571" vertical-scroll-proportion="0.2847571">
-          <folding />
-        </state>
+        <state line="10" column="87" selection-start="571" selection-end="571" vertical-scroll-proportion="0.2847571" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/article/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="33" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.05954466">
-          <folding>
-            <marker date="1368948023531" expanded="true" signature="2325:2649" placeholder="..." />
-            <marker date="1368948023531" expanded="true" signature="2386:2649" placeholder="..." />
-            <marker date="1368948023531" expanded="true" signature="2430:2527" placeholder="..." />
-            <marker date="1368948023531" expanded="true" signature="2563:2649" placeholder="..." />
-            <marker date="1368948023531" expanded="true" signature="2605:2649" placeholder="..." />
-            <marker date="1368948023531" expanded="true" signature="2887:2999" placeholder="..." />
-            <marker date="1368948023531" expanded="true" signature="2929:2999" placeholder="..." />
-            <marker date="1368948023531" expanded="true" signature="3110:3190" placeholder="..." />
-          </folding>
-        </state>
+        <state line="23" column="33" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.05954466" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/diary.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="48" selection-start="181" selection-end="181" vertical-scroll-proportion="0.085427135">
-          <folding />
-        </state>
+        <state line="3" column="48" selection-start="181" selection-end="181" vertical-scroll-proportion="0.085427135" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/article/write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="28" selection-start="798" selection-end="802" vertical-scroll-proportion="0.47635728">
-          <folding />
-        </state>
+        <state line="16" column="28" selection-start="798" selection-end="802" vertical-scroll-proportion="0.47635728" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="43" selection-start="0" selection-end="3030" vertical-scroll-proportion="0.68476355">
-          <folding />
-        </state>
+        <state line="22" column="43" selection-start="0" selection-end="3030" vertical-scroll-proportion="0.68476355" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extends/user_release.js">
@@ -620,7 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="966" column="38" selection-start="64362" selection-end="64362" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <marker date="1368965872308" expanded="true" signature="53387:53420" placeholder="..." />
             <marker date="1368965872308" expanded="true" signature="53642:53724" placeholder="..." />
           </folding>
@@ -630,24 +562,29 @@
     <entry file="file://$PROJECT_DIR$/js/public.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="10" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/user/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="10" selection-start="2400" selection-end="2406" vertical-scroll-proportion="-61.46154">
+        <state line="97" column="10" selection-start="2400" selection-end="2406" vertical-scroll-proportion="0.0">
           <folding>
             <marker date="1368970340717" expanded="true" signature="3832:3860" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protected/runtime/application.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5212" column="37" selection-start="373664" selection-end="373948" vertical-scroll-proportion="0.71524286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="55" selection-start="2421" selection-end="2421" vertical-scroll-proportion="0.34500876">
+        <state line="96" column="39" selection-start="3145" selection-end="3145" vertical-scroll-proportion="0.31523642">
           <folding />
         </state>
       </provider>

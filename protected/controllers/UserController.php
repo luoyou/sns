@@ -15,7 +15,7 @@ class UserController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view','test','image'),
+				'actions'=>array('index','view','test','image','AjaxAvatar'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -74,16 +74,17 @@ class UserController extends Controller
 	}
 
     public function actionTest(){
-        $path = Yii::app()->baseUrl.'/extends/avatar/';
+        $ext_path = Yii::app()->baseUrl.'/extends/avatar/';
+        $pic_path = Yii::app()->baseUrl.'/images/user/pic/';
         $uid  = 1;
-        $swfObj = '<object name="c_avatar" type="application/x-shockwave-flash" width="720" height="420" id="c_avatar_miniblog1" align="middle" data="'.$path.'c_avatar.swf">'.
+        $swfObj = '<object name="c_avatar" type="application/x-shockwave-flash" width="720" height="420" id="c_avatar_miniblog1" align="middle" data="'.$ext_path.'c_avatar.swf">'.
             '<param name="allowScriptAccess" value="always" />'.
             '<param name="allowfullscreen" value="true" />'.
             '<param name="AllowNetworking" value="all" />'.
             '<param name="quality" value="high" />'.
             '<param name="bgcolor" value="#ffffff" />'.
             '<param name="menu" value="false" />'.
-            '<param name="flashvars" value="policy_file_url='.$path.'crossdomain.xml&big_avatar_url='.$path .'images/user/'.$uid.'_big.jpg&middle_avatar_url='.$path.'images/user/'.$uid.'_middle.jpg&little_avatar_url='.$path.'images/user/'.$uid.'_small.jpg&big_avatar_name='.$uid.'_big&middle_avatar_name='.$uid .'_middle&little_avatar_name='.$uid.'_small&url_params=" />'.
+            '<param name="flashvars" value="policy_file_url='.$ext_path.'crossdomain.xml&big_avatar_url='.$pic_path.$uid.'_big.jpg&middle_avatar_url='.$pic_path.$uid.'_middle.jpg&little_avatar_url='.$pic_path.$uid.'_small.jpg&big_avatar_name='.$uid.'_big&middle_avatar_name='.$uid .'_middle&little_avatar_name='.$uid.'_small&url_params=" />'.
             '</object>';
 
         $this->renderPartial('test',array('swfObj'=>$swfObj));
@@ -94,11 +95,20 @@ class UserController extends Controller
     }
 
     public function actionAjaxAvatar(){
-        $middle_avatar = base64_decode($_POST['middle_avatar']);
-        $middle_name   = $_POST['middle_avatar_name'];
-        //写入到文件夹
-        echo 200;
-        echo 400;
+        if($this->avatar('big')&&$this->avatar('middle')&&$this->avatar('little')){
+            echo 200;
+        }else{
+            echo 400;
+        }
+    }
+
+    public function avatar($type){
+        $avatar = base64_decode($_POST[$type.'_avatar']);
+        $name   = $_POST[$type.'_avatar_name'].$_POST['image_type'];
+        $file   = fopen(Yii::app()->basePath."/../images/user/pic/".$name,"w");
+        $status = fwrite($file,$avatar);
+        fclose($file);
+        return $status;
     }
 
 	/**
