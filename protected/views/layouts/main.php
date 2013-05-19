@@ -12,8 +12,15 @@
     <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/user.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/public.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/personal.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/diary.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/write.css" rel="stylesheet" type="text/css" />
+
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/public.js"></script>
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/talk.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/diary.js"></script>
+
+
+    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/extends/xheditor-1.1.14-zh-cn.min.js"></script>
 </head>
 
 <body>

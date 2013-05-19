@@ -1,3 +1,4 @@
+<?php $this->renderPartial('//layouts/other_info'); ?>
 <div id="main_info">
 	<div id="message">
 	    <div id="publish_message" contenteditable="true"></div>

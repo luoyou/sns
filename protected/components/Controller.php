@@ -24,9 +24,13 @@ class Controller extends CController
     public $user = null;
 
     public function __construct($id,$module=null){
+        if(isset(Yii::app()->user->id)){
+            $this->user = Yii::app()->user;
+        }else{
+            //$this->redirect(array('Site/Login'));
+        }
+        include('Common.php');
         parent::__construct($id,$module);
-        $this->user = Yii::app()->user;
-        require('Common.php');
     }
 
 }

@@ -8,8 +8,8 @@
  * @property integer $user_id
  * @property integer $column_id
  * @property string $title
- * @property integer $reprint_count
- * @property integer $content_id
+ * @property string $content
+ * @property integer $istop
  * @property integer $create_time
  * @property integer $update_time
  */
@@ -41,12 +41,12 @@ class Article extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('user_id, column_id, title, reprint_count, content_id, create_time, update_time', 'required'),
-			array('user_id, column_id, reprint_count, content_id, create_time, update_time', 'numerical', 'integerOnly'=>true),
-			array('title', 'length', 'max'=>32),
-			// The following rule is used by search().
-			// Please remove those attributes that should not be searched.
-			array('id, user_id, column_id, title, reprint_count, content_id, create_time, update_time', 'safe', 'on'=>'search'),
+			//array('user_id, column_id, title, content, istop, create_time, update_time', 'required'),
+			array('user_id, column_id, create_time, update_time', 'numerical', 'integerOnly'=>true),
+			array('istop, private','boolean'),
+            array('title', 'length', 'max'=>32),
+            array('content','safe'),
+			array('id, user_id, column_id, title, content, istop, private, create_time, update_time', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -61,6 +61,12 @@ class Article extends CActiveRecord
 		);
 	}
 
+    public function scopes(){
+        return array(
+            'sort'=>array('order'=>'istop DESC,create_time DESC'),
+        );
+    }
+
 	/**
 	 * @return array customized attribute labels (name=>label)
 	 */
@@ -71,8 +77,9 @@ class Article extends CActiveRecord
 			'user_id' => 'User',
 			'column_id' => 'Column',
 			'title' => 'Title',
-			'reprint_count' => 'Reprint Count',
-			'content_id' => 'Content',
+			'content' => 'Content',
+			'istop' => 'Istop',
+			'private' => '私密',
 			'create_time' => 'Create Time',
 			'update_time' => 'Update Time',
 		);
@@ -93,8 +100,9 @@ class Article extends CActiveRecord
 		$criteria->compare('user_id',$this->user_id);
 		$criteria->compare('column_id',$this->column_id);
 		$criteria->compare('title',$this->title,true);
-		$criteria->compare('reprint_count',$this->reprint_count);
-		$criteria->compare('content_id',$this->content_id);
+		$criteria->compare('content',$this->content,true);
+		$criteria->compare('istop',$this->istop);
+		$criteria->compare('private',$this->private);
 		$criteria->compare('create_time',$this->create_time);
 		$criteria->compare('update_time',$this->update_time);
 
@@ -102,4 +110,16 @@ class Article extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+
+    public function beforeSave(){
+        if($this->isNewRecord){
+            $this->create_time = time();
+            $this->user_id = Yii::app()->user->id;
+        }else{
+            $this->update_time = time();
+        }
+
+        parent::beforeSave();
+        return true;
+    }
 }

@@ -1,0 +1,146 @@
+<?php /* @var $this Controller */ ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+
+	<title>公共页面</title>
+	
+    <link href="css/public.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="header">
+    <div id="logo"></div>
+    <div id="nav">
+        <ul>
+            <li><a href="#">个人中心</a></li>
+            <li><a href="#">我的主页</a></li>
+            <li><a href="#">应用</a></li>
+            <li><input type="text" value="搜&nbsp;&nbsp;说说/日志……" id="input_search" /><i class="search_icon"></i></li>
+            <li class="user_little_pic">
+				<a href="#">[登录]</a>
+            </li>
+            <li>
+				<a href="#">[注册]</a>
+            </li>
+            <li><a href="#" class="user_set"></a></li>
+            <li><a href="#" class="message"></a></li>
+        </ul>
+    </div>
+</div>
+    <div id="z_header_first">
+        <span>日志</span>
+        <a>返回日志列表</a>
+    </div>
+
+<div id="content">
+    <div class="z_article_title">
+        <span class="z_article_title_one">我们追求的是什么？</span>
+        <span class="z_article_title_two">
+            <span id="pubtime">2012-2-4&nbsp;01:15</span>
+            <span id="readnum">阅读(34)</span>
+        </span>
+         
+    </div>
+    <div class="z_main_article">
+        <p></p>
+    </div>
+    <div id="z_article_operate">
+        <span class="z_article_edit">
+            <a href="#"><i class="edit_icon"></i>编辑</a>
+        </span>
+        <span class="z_article_del">
+            <a href="#"><i class="del_icon"></i>删除</a>
+        </span>
+        <span class="z_article_turnpage">
+            <a>上一篇</a>|<a>下一篇：世间本无对错</a>
+        </span>
+    </div>
+    <div class="z_article_mod c_tx1">
+        <span class="category"><a href="#" class="c_tx1">天下杂侃</a>|</span>
+        <span class="rightsetting">公开 |</span>
+        <span class="contentauthor">原创:<a href="#" class="c_tx1">落忧</a></span>
+        
+    </div>
+    <div id="z_article_line"></div>
+    <div id="z_article_comment">
+        <span class="z_comment_number"><a href="#">评论(1)</a></span>
+        <span class="z_comment_state"><a>显示评论签名</a></span>
+    </div>
+    <div id="z_article_comment_content">
+        <ul>
+            <li>
+                        <div class="zy_avatar">
+                            <a><img src="images/pic1.jpg"></a>
+                            <span>苦丁凉白开</span>
+                        </div>
+                        <div class="zy_leave_content">
+                            <div class="zy_bg3">
+                                <span class="zy_floor">1楼</span>
+                                <span class="zy_comment_time">评论时间2012-9-1014：10：01<span>
+                            </div>
+                            <div class="zy_bg4">好久不见啊。</div>
+                            <div class="zy_bg5"><a href="#" rel="reply">回复</a></div>
+                        </div>
+                        <div class="zy_reply">
+                            <a><img src="images/pic_little.jpg"></a>
+                            <div class="zy_reply_content">
+                                <span class="zy_bg6"><a href="#" >我</a><span>
+                                <span class="zy_bg7">是啊，好久不见。。</span>
+                                <div class="zy_bg8">08月25日20:27</div>
+                            </div>
+                        </div>
+                        <div class="zy_reply_edit">
+                            <div class="zy_reply_edit_content" contenteditable="true"></div>
+                        </div>
+
+                    </li>
+        </ul>
+        <div id="z_article_behind_line"></div>
+        <div id="z_article_turnpage">
+            <span class="z_turn_front_bg9"><p>上一页&nbsp;&nbsp;&nbsp;1</p></span>
+                <span class="z_turn_behind">
+                    <a href="#">下一页</a>
+                </span>
+                
+                <span>
+                    转到<input type="text" class="z_textinput_bg1" value="1">页
+                </span>
+                <button class="z_bt_text" input="button">确定</button>
+        </div>
+    </div>
+    <div id="z_article_leave">
+        <div id="z_article_leave_header"><p>发表评论</p></div>
+        <div id="post_cont">
+            <div class="author">
+                <a href="#">
+                    <img src="images/pic.jpg" style="width:100px; height:100px;" id="commentauthorimg">
+                </a>
+            </div>
+            <div class="post">
+                <textarea class="editor_text none" title="正在加载编辑器..."></textarea>
+            </div>
+            <div class="post_ft">
+                <p class="post_publish">
+                    <button type="button" class="bt_tx2">发表</button>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+<div id="footer">
+	Copyright © 2013 - 2030 luo.All Rights Reserved.<br/>
+	个人落忧 版权所有
+</div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+body { background:#cddbe9; color: #D9DDE2;}
+a { color: #AAC4EE; cursor: pointer; }
+
+#header {height: 36px; background: #313131; font-family: "微软雅黑"; text-align: center; font-size: 14px;}
+#content { width: 900px; background: #33425a; margin: 0 auto; overflow: auto;}
+#logo { float:left; height: 36px; width: 90px; margin-left: 165px; background: url(../images/logo.png) no-repeat; }
+#nav {margin-left: 280px; color: #ffffff;}
+#nav ul {list-style: none;}
+#nav ul li {float: left; padding: 7px 7px 0px;}
+#nav ul li a {color: #ffffff;}
+
+#input_search { width: 129px; height: 21px; border: 0px; color: #818181; outline: 0; background-color: #ededed; font-family: "微软雅黑"; text-align: center;}
+.search_icon { outline: none; border-left-style: solid; border-left-width: 1px; border-left-color: #CACACA; background-image: url(../images/icenter_lite.png); background-position: 0 -51px; cursor: pointer; display: inline-block; width: 25px; height: 21px;}
+
+.user_little_pic {margin-left: 125px; }
+.quit { margin-left: 9px;}
+.user_set { background: url(../images/icenter_lite.png) -350px -50px no-repeat ; width: 16px; height: 18px; display: block; margin-top: 2px;}
+.message { background: url(../images/icenter_lite.png) -366px 0px no-repeat; width: 16px; height: 18px; display: block; margin-top: 2px;}
+#content{overflow: hidden;  background-color: #33425a;}
+#z_header{ height:27px; background-color: #faf8be;; margin-top: 0px;}
+#z_header p{font-size: 13px; font-family: "微软雅黑"; color:#313131; padding:3px 6px; font-weight:bold;}
+#z_main_content{background-color:  #faf8be; width: 900px;}
+.z_message{display:block; font-size:15px; font-family: "微软雅黑"; font-weight: bold; margin-left: 7px; float: left; color: #313131; padding: 5px 2px;}
+.z_edit_message{display: inline-block; font-size: 12px; margin-left: 13px; padding: 7px 5px; color: #313131;}
+#z_line{border-bottom:1px solid #f5d5ae; width: 870px; margin-left: 15px;}
+.z_state{height: 160px; margin-top: 0px;}
+.z_state p{color: #313131; font-size: 12px; padding: 3px 12px;}
+.z_friend{font-size: 15px; font-family: "微软雅黑"; color: #313131; font-weight: bold;}
+.z_friend p{padding: 5px;}
+.z_title{color: #313131; font-size: 15px; margin-left: 5px; font-weight: bold;}
+.z_title{float: left;}
+.z_number{padding: 4px 4px;}
+.z_number span{color: #313131;}
+.z_number_front{float:left; margin-left: 470px;}
+.z_number_behind{margin-left: 8px;}
+.z_number_behind a{padding: 2px; color: #313131;}
+.z_textinput{width: 27px; height: 13px; padding: 2px 2px; text-align: center; border: 1px solid #2c384b; color: #313131; background-color: #f5d5ae;}
+.z_bt_text2{color:#313131; background-color: #f5d5ae; border: 1px solid #34445d; width: 45px; text-align: center; cursor: pointer;}
+.z_avatar{width: 140px; height: 200px; background-color: #f6d5c2; float: left;}
+#z_all_leave_message li{display: inline-block; border:1px solid #f5d5ae; width: 880px; margin-left: 10px; margin-top: 5px;}
+.z_avatar a img{ width: 100px; height: 100px; display:inline-block; margin:15px 15px;}
+.z_avatar span{color: #313131; margin-left: 15px;}
+.z_bg3{margin: 13px 19px; display: inline-block; color: #313131;}
+.z_bg4{margin-left: 160px; color: #313131;}
+.z_bg5{margin-left: 800px; margin-top: -50px;}
+.z_bg5 a{color: #313131;}
+.z_reply{margin-left: 163px; margin-top: 45px; background-color: #f6d5c2; width: 400px; height: 55px;}
+.z_reply a img{ margin-top: 8px; margin-left: 10px; float: left; width: 36px; height: 36px;}
+.z_reply_content{color: #313131; margin-left: 56px; margin-top: 10px; width: 353px; height: 55px;}
+.z_reply_content a{color: #313131;}
+.z_bg6{margin-left: 0px; margin-top: 7px; display: inline-block;}
+.z_bg7{display: inline-block; margin-left: 0px;}
+.z_reply_edit{background-color: #f6d5c2; width: 400px; height: 40px; margin-left: 163px; margin-top: 2px; overflow: auto;}
+.z_reply_edit_content{width: 380px; height: 25px; background-color:#eea594; margin: 6px 9px;}
+.z_footer_line{border-bottom:1px solid #f5d5ae; width: 870px; margin-left: 15px; margin-top: 5px;}
+#z_footer_content{height: 55px;}
+.z_footer_content_front{margin-left: 10px; float: left;}
+.z_footer_content_front a{padding: 2px 2px; color: #313131; font-weight: bold;}
+.z_footer_behind{background-color: #313131;}
+.z_number_front_bg9{float: left; margin-left: 425px;}
+
+
+#footer{text-align: center; margin-top: 10px; color: #313131;}
+
+
+.bg2 { background: #40516d;}
+
+
+
+
+.clearfix:before,.clearfix:after { content: "."; display: block; height: 0; overflow: hidden; }
+.clearfix:after {clear: both;}
+.clearfix {zoom: 1;}
+
+/*=======================此处为分割线========================*/
+.pager { height: 20px; }
+.pager .yiiPager { margin-left: 180px; }
+#message_list .pager .yiiPager li { float: left; padding: 6px; margin: 0;}
+#message_list .pager .yiiPager li a{ color: #AAC4EE; }

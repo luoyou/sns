@@ -1,3 +1,4 @@
+<?php $this->renderPartial('//layouts/other_info'); ?>
 <div id="main_info">
 	<div id="message">
 	    <div id="publish_message" class="edit_status" contenteditable="true">走过人生的路程, 我们一起留下的回忆……</div>

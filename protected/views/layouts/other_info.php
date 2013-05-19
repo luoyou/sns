@@ -10,7 +10,7 @@
         <span>明日天气晴,-4到5度,大家记得加衣服</span>
     </div>
     <div id="user_operate">
-        <a href="#" class="user_operate_type"><i class="message_type_article_icon"></i>写日志</a>
+        <?php echo CHtml::link("<i class='message_type_article_icon'></i>写日志",array('Article/Write'),array('class'=>'user_operate_type')) ?>
         <a href="#" class="user_operate_type"><i class="message_type_photo_icon"></i>传照片</a>
         <a href="#" class="user_operate_type"><i class="message_type_video_icon"></i>发视频</a>
     </div>
@@ -20,7 +20,7 @@
         <a href="#" class="user_operate_type"><i class="message_me_icon"></i>我的消息</a>
     </div>
     <div id="user_link" class="clearfix">
-        <a href="#" class="function_link"><i class="article_icon"></i>日志</a>
+        <?php echo CHtml::link("<i class='article_icon'></i>日志",array('Article/Index'),array('class'=>'function_link')); ?>
         <a href="#" class="function_link"><i class="photo_icon"></i>相册</a>
         <?php echo CHtml::link("<i class='say_icon'></i>说说",array('TalkList/Index'),array('class'=>'function_link')); ?>
         <a href="#" class="function_link"><i class="leave_message_icon"></i>留言板</a>

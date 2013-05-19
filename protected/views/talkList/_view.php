@@ -1,7 +1,3 @@
-<?php
-/* @var $this TalkListController */
-/* @var $data TalkList */
-?>
 <li>
     <a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pic.jpg" /></a>
     <div class="message_frame bg2">

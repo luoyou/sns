@@ -1,0 +1,11 @@
+#write_header{padding: 5px;}
+#write_header h3{font-size: 14px; display: inline; margin-left: 18px;}
+#write_header a{margin-left: 730px;}
+#write_content{}
+.write_title{display: block; margin: 30px auto; height: 30px; width: 680px;}
+.editor{margin-left: 50px; display: block;}
+#article_type{margin-top: 10px; margin-left: 48px;}
+#article_type select{margin-right: 20px;}
+#article_type input{display: inline-block; margin-top: 5px;}
+.article_button{margin-left: 48px; margin-top: 20px;}
+#add_column{display: none; position: fixed; left: 50%; top: 50%; width: 50px; height: 50px; background-color: #f0f0f0;}

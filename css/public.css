@@ -2,7 +2,7 @@ body { background:#40516D; color: #D9DDE2;}
 a { color: #AAC4EE; cursor: pointer; }
 
 #header {height: 36px; width: 100%; background: #313131; font-family: "微软雅黑"; text-align: center; font-size: 14px;}
-.header_center { margin: 0 auto; width: 960px; }
+.header_center { margin: 0 auto; width: 900px; }
 #content { width: 900px; background: #34445C; margin: 36px auto; overflow: auto;}
 #logo { float:left; height: 36px; width: 90px; background: url(../images/logo.png) no-repeat; }
 #nav { color: #ffffff;}
@@ -23,10 +23,6 @@ a { color: #AAC4EE; cursor: pointer; }
 
 #footer { text-align: center; margin-top: 10px; }
 
-.bg2 { background: #40516d; }
-.bg3 { background: #374760; } 
-.bg4 { background: #34445c; } 
-
 i { width: 16px; height: 14px; display: block; background-image: url(../images/icenter_lite.png);}
 .message_type_article_icon { background-position: -417px -34px; }
 .message_type_video_icon { background-position: -434px -51px; }
@@ -41,6 +37,12 @@ i { width: 16px; height: 14px; display: block; background-image: url(../images/i
 .leave_message_icon { height: 16px; background-position: -246px -44px;}
 .share_icon { height: 16px; background-position: -451px 0;}
 .user_info_icon { height: 16px; background-position: -451px -17px;}
+
+.bg2 { background: #40516d; }
+.bg3 { background: #374760; }
+.bg4 { background: #34445c; }
+.submit_button { width: 115px; height: 35px; }
+.cancel_button { width: 60px; height: 25px; }
 
 .clearfix:before,.clearfix:after { content: "."; display: block; height: 0; overflow: hidden; }
 .clearfix:after {clear: both;}

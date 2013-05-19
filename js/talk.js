@@ -73,13 +73,12 @@ $('document').ready(function(){
      *提交评论
      */
     $('.comment_commit').click(function(){
-        alert($(this).parent().children('.comment').text());//.parent().children('.comment').attr('comment'));
         $.ajax({
             url:webUrl('/TalkList/Comment'),
             data:
                 {'TalkComment':
                     {
-                        'list_id':$(this).parent().children('.comment').attr('comment'),
+                        'list_id':$(this).parent().find('.comment').attr('comment'),
                         'pid':0,
                         'content':$(this).prev().text()
                     }
@@ -88,7 +87,8 @@ $('document').ready(function(){
             dataType:'json',
             success:function(data){
                 var content = "<li><a href='#'><img src='"+webUrl()+"/images/"+data['pic']+"' /></a><div class='comment_main'><span class='comment_content'><a href='#'>"+data['nickname']+"</a>:"+data['content']+"</span><span class='comment_info'>"+data['create_time']+"<a class='reply'>回复</a></span></div></li>";
-                $(this).parent().children('ul').append(content);
+                var xx = $(this).parent().find('ul:first');
+                alert(xx);
             },
             error:function(data){alert('评论失败');}
         });
